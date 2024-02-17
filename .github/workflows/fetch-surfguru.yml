@@ -26,6 +26,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add "webpage-${{ steps.date.outputs.date }}.html"
+          git add "."
           git commit -m "Update webpage content"
           git push
