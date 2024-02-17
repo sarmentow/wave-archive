@@ -19,9 +19,7 @@ jobs:
 
       - name: Download Webpage
         run: |
-          wget --adjust-extension --span-hosts --convert-links --backup-converted --no-directories --timestamping --page-requisites --directory-prefix=${{ steps.date.outputs.date }} --tries=1 -e robots=off      https://surfguru.com.br/previsao/brasil/rio-grande-do-norte/natal/oceanica 
-          rm ${{ steps.date.outputs.date }}/*.jpg ${{ steps.date.outputs.date }}/*.jpeg ${{ steps.date.outputs.date }}/*.png
-
+          wget --reject jpg,png,JPG,jpeg --adjust-extension --span-hosts --convert-links --backup-converted --no-directories --timestamping --page-requisites --directory-prefix=${{ steps.date.outputs.date }} --tries=1 -e robots=off      https://surfguru.com.br/previsao/brasil/rio-grande-do-norte/natal/oceanica 
       - name: Commit Changes
         run: |
           git config --global user.name "GitHub Actions"
