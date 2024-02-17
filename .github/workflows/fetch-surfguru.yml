@@ -1,0 +1,28 @@
+name: Surfguru Natal Diário
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  save-webpage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Get Current Date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+
+      - name: Download Webpage
+        run: |
+          wget -O "webpage-${{ steps.date.outputs.date }}.html" https://example.com  # Replace with your desired webpage URL
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add "webpage-${{ steps.date.outputs.date }}.html"
+          git commit -m "Update webpage content"
+          git push
