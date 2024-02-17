@@ -12,14 +12,15 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-
-      - name: Get Current Date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
 
       - name: Download Webpage
         run: |
-          wget -q --reject jpg,JPG,jpeg --adjust-extension --span-hosts --convert-links --no-directories --page-requisites --directory-prefix=2024 --tries=1 https://surfguru.com.br/previsao/brasil/rio-grande-do-norte/natal/oceanica 
+          python scrape.py
 
       - name: Commit Changes
         run: |
