@@ -1,8 +1,8 @@
-name: Surfguru Natal Diário
+name: Surfguru Natal Diáriot
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 13 * * *"
 
 jobs:
   save-webpage:
