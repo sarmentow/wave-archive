@@ -3,6 +3,8 @@ name: Surfguru Natal Diáriot
 on:
   schedule:
     - cron: "0 13 * * *"
+  workflow_dispatch:  
+
 
 jobs:
   save-webpage:
