@@ -1,4 +1,4 @@
-name: Surfguru Natal Diáriot
+name: Surfguru Natal Diário
 
 on:
   schedule:
@@ -19,7 +19,8 @@ jobs:
 
       - name: Download Webpage
         run: |
-          wget -O "webpage-${{ steps.date.outputs.date }}.html" https://example.com  # Replace with your desired webpage URL
+          wget --adjust-extension --span-hosts --convert-links --backup-converted --no-directories --timestamping --page-requisites --directory-prefix=${{ steps.date.outputs.date }} --tries=1 -e robots=off      https://surfguru.com.br/previsao/brasil/rio-grande-do-norte/natal/oceanica 
+          rm ${{ steps.date.outputs.date }}/*.jpg ${{ steps.date.outputs.date }}/*.jpeg ${{ steps.date.outputs.date }}/*.png
 
       - name: Commit Changes
         run: |
