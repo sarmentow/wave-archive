@@ -1,0 +1,1 @@
+Na maré secando (2 horas depois do pico da cheia, umas 12 horas) Ondas pequenas porém divertidas, mar liso porém com vento. Bacana, relaxante, nada radical.

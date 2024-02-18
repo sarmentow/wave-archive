@@ -1,0 +1,1 @@
+Passei na frente de miami no fim da tarde (16:40?) e não vi tantas ondas. O mar tava bem seco, em compensação o vento tava muito bom, o mar tava lisinho assim como ontem.
