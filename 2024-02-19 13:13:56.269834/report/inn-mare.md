@@ -1,0 +1,1 @@
+Surfei no inn mare de umas 13:30. O mar tava bem cheio, dava pra ver que o mar tinha ondulação vindo. Não tinha muito vento. Não fez tanta parede quanto no dia 17/02. DIa 17 tavam menores as ondas, mas as paredes eram mais longas. Acho que foi mais um problema da maré e não da ondulação?. Dia 17/02 eu peguei ela secando.
