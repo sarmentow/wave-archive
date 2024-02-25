@@ -1,0 +1,4476 @@
+#area_navegacao{margin-right: 8px;}
+
+.box-previsao,
+.conteudo-interno{width:650px;}
+
+#anuncio2{margin:5px;}
+#anuncio5{margin-top: 0;}
+
+.lista-galeria li{margin:5px}
+
+.lista-galeria{width:300px;margin:0;padding: 0}
+
+.lista-galeria li .imagem-galeria {width:140px;height:105px;}
+
+.lista-galeria li .imagem-galeria img{height:105px;width:auto}
+
+.box-previsao,
+.conteudo-box,
+.mapa-previsao,
+.anuncio-lateral-2,
+.anuncio-lateral-3,
+.anuncio-previsao
+{float: left;display: block; }
+
+.conteudo-box{padding:20px 0 20px 20px}
+
+.anuncio-lateral-3{margin: 0 0 30px 0;}
+
+.anuncio-lateral-2{margin: 12px 0;}
+
+.anuncio-previsao{margin: 0 12px 0 0;}
+
+.btn-previsao-selecionado,
+.btn-previsao{
+	float: left;
+	font-family:'Jockey One',sans-serif;
+	padding: 0 8px;
+	color:#ddd;
+	text-shadow:none;
+	box-shadow:none;
+	border-radius:0;
+	text-transform:uppercase;
+	font-size:15px;
+	height:33px;
+	line-height:33px;
+	vertical-align:none;
+	border:1px solid #011733;
+	margin: 4px 10px;
+}
+
+.btn-previsao{
+	box-shadow:0 2px 3px #18447d inset;
+	background:#0a2b55;
+}
+
+.btn-previsao-selecionado{
+	background:#111;
+	color:#fff;
+	position: relative;
+	text-align:center;
+}
+
+button.btn-previsao:hover{
+	box-shadow:none;
+	background-position:0 0;
+	color:#fff;
+	background:#1b4a86;
+}
+
+#barra-selecao{height: 44px;}
+
+.icone-toggle-fechado {
+	display:block;
+	height:35px;
+	width:35px;
+	background:url(https://surfguru.space/img/icones/btn-previsao.jpg) right;
+}
+
+.seta-abaixo{
+	position: absolute;
+	bottom: -20px;
+	left: 35%;
+	color: #111;
+	font-size: 40px;
+	font-family:"Arial Black", arial;
+}
+
+.barra-noticias{
+	float: left;
+	width: 150px;
+	padding:0;
+	margin:0 10px 0 0; 
+	list-style-type:none;
+}
+
+.barra-noticias li{
+	float: left;
+	line-height: 16px;
+	width: 100%;
+	border-bottom:1px solid #eee;
+	padding:0;
+	margin:0;
+}
+
+.barra-noticias li a{
+	text-decoration: none;
+	display: block;
+	background-color: #fff;
+	padding: 8px 4px;
+	margin:0;
+}
+
+.barra-noticias li a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+.titulo a:hover{text-decoration: none; }
+
+.titulo a{color:#0a2b55!important}
+
+
+.coluna_lista_curta,
+.coluna_lista_larga,
+.coluna_lista{
+	width:200px;
+	margin-left:8px;
+	float:left;
+	list-style-type:none;
+	position:relative;
+}
+
+.coluna_lista_larga{width:280px;height:340px;margin-left:30px;}
+
+.coluna_lista_curta{
+	width:170px;
+	margin-left:6px;
+}
+
+.banner640x120{
+	margin: 0 5px 20px 5px;
+}
+
+#trips-rodape{
+	width: 980px;
+	float: left;
+	margin-top: 20px;
+	background: #bbb;
+}
+
+#ciencia-rodape{
+	width: 650px;
+	float: left;
+}
+
+#lista-ciencia{
+	width: 650px;
+	float: left;
+	margin:20px 0 0 0;
+}
+
+#lista-ciencia li{margin-left:46px}
+
+#lista-ciencia li:first-child{margin-left:0}
+
+#noticias-rodape{
+	margin-top: 20px;
+}
+
+#experimental{
+	float:left;
+	width:612px;
+	height:23px;
+	margin: 0 0 20px 0;
+	padding: 6px 20px;
+	border:1px solid #000;
+}
+
+#experimental a{
+	font-size:18px;
+	color:#000;
+}
+
+#entenda-energia,
+#entenda{
+	position: absolute;
+	left: 203px;
+	top: -13px;
+	width: 230px;
+	height: 60px;
+	background: #fff;
+	border: 1px solid #000;
+	padding: 8px 12px;
+	font-size: 16px;
+	z-index: 100;
+	display: none;
+}
+
+
+
+#seleciona_hoje{
+	float: right;
+}
+
+#menu_variaveis_hindcast{
+	display: block;width: 200px;
+}
+
+#menu_mapas3 {
+    position: absolute;
+	top: 55px;
+	right: 215px;
+	width: 60px;
+	z-index: 100;
+	border: 0;
+    height: 22px;
+}
+
+
+#menu_mapas3 a{
+	line-height: 16px;
+	border: 0;
+}
+
+
+#div_vazia{
+	width:620px;border:1px solid #bbb;float:left;margin:20px 0;
+}
+
+#botao_vento_0,#botao_vento_1{
+	height: 27px;
+    line-height: 27px;
+}
+
+#ceu_claro{
+	margin:0 0 0 6px;width:40px;background-color:#99f;
+}
+
+#encoberto{
+	margin:0;background-color:#555;color:#fff;width:40px;
+}
+
+#grafico_tempo{
+	position: absolute;top: 23px;z-index: 100;
+}
+
+#scroll_tempo{
+	bottom:15px;left:60px;
+}
+
+#botao_unidade_ce2{
+	margin:2px 0 0 0;
+}
+
+#botao_unidade_fa2{
+	margin:2px 8px 0 0;
+}
+
+#botao_unidade_ce,#botao_unidade_fa,#botao_unidade_ce2,#botao_unidade_fa2{display: none;}
+
+#botao_unidade_ce{
+    margin:2px 0 0 0;
+}
+
+#botao_unidade_fa{
+    margin:2px 8px 0 0;
+}
+
+
+#conteudo-box4 label{
+	float: left;
+	font-size: 18px;
+	color: #000;
+}
+
+#conteudo-box4 section{
+	width: 300px;
+	float: left;
+	margin: 10px;
+}
+
+.rotulo_relatorio{
+	width: 230px;
+	float: left;
+	font-size: 20px;
+	color: #000;
+}
+
+#map_canvas{
+	width: 260px;
+	height: 520px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
+#flash_praia{
+	width:260px;
+	height:260px;
+	position:absolute;
+	z-index:2;
+	border:0;
+	margin: 0;
+}
+
+.titulo_mapa_previsao{text-align:left;}
+
+
+.envoltorio_hora_sumario {
+    height: 620px;
+}
+
+.envoltorio_dia_sumario,
+#diario_dia,
+#diario_semana{
+	height: 670px;
+}
+
+.gm-fullscreen-control {
+  display: none;
+}
+
+#arrudeia_escala_espectro{
+	position: absolute;
+	width: 25px;
+	height: 260px;
+	top:58px;
+	right:-15px;
+	overflow:hidden;
+	z-index: 100;
+	top: 50px;
+	right: -10px;
+}
+
+#escala_espectro{
+	position: absolute;width: 25px;height: 260px;
+}
+
+#label_espectro{
+	float: right;
+	color: #000;
+}
+
+#titulo_espectro{
+	text-align: right;
+}
+
+
+
+.conteudo-box-report{
+	padding: 10px 0;
+	height: auto;
+	width: 300px;
+}
+
+.box-previsao-report{
+	width: 300px;
+	border: 0;
+	margin: 0 0 20px 30px;
+}
+
+.surf_reporter{
+	float: right;
+	font-size: 16px;
+	margin: 0 20px;
+}
+
+
+#simbolos_espectro{
+	position: absolute;
+	height: 45px;
+    right: -10px;
+    top: 0;
+    width: 285px;
+}
+
+#simbolos_espectro label{
+	float: right;
+	color: #000;
+	margin-top: 30px;
+}
+
+
+#btn-ver{
+	padding: 0 12px;
+}
+
+
+.seta-entenda{
+	position: absolute;
+	left: -15px;
+	top: 24px;
+}
+
+.menu_suspenso {
+    float: left;
+    width: 250px;
+    height: 40px;
+    padding: 0;
+    margin: 8px 0 0 40px;
+    list-style-type: none;
+}
+
+.menu_suspenso li{
+	float: left;
+	height:22px;	
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.menu_suspenso li a{
+	height:20px;
+	margin:0;
+	padding:0 5px;
+	border: 1px solid #fff;
+}
+
+.menu_suspenso li a.normal{
+	color: #222;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-right: 1px solid #777;
+}
+
+.menu_suspenso li a.normal:hover{
+	text-decoration:none;
+	color: #fff;
+}
+
+.menu_suspenso li a.ativo:hover{
+	text-decoration:none;
+}
+
+.menu_suspenso li a.ativo{
+	color: #222;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-right: 1px solid #777;
+}
+
+
+#menu_espectro{
+	margin: 0 0 0 54px;
+	position: relative;
+}
+
+#menu_surf{
+	margin: 0 0 0 40px;
+	height: 44px;
+	position: relative;
+    width:210px;
+}
+
+#menu_surf li{
+	height: 44px;
+	float: left;
+}
+
+#menu_surf li a{
+	padding: 10px;
+	float: left;
+	height: 22px;
+}
+
+#sugestoes{
+	position:absolute;
+	top:35px;
+	left:117px;
+	z-index:1000;
+	display:none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #000;
+	width: 448px;
+}
+
+
+.links_praias{
+	background:#fff;
+	width:436px;
+	height:20px;
+	float:left;
+	padding:6px;
+	margin: 0;
+	overflow: hidden;
+}
+
+.links_praias a{
+	color: #000;
+}
+
+.links_praias a:hover{
+	color: #660;
+	text-decoration: none;
+}
+
+
+#form-procura{
+	display:none;
+	float:left;
+	width:700px;
+	margin:12px;
+	position:relative;
+}
+
+#form-procura label{
+float: left;
+width: 100px;
+margin: 8px;
+}
+
+#nome-procura{
+	float:left;
+	width:400px;
+	margin:0;
+}
+
+#lupa_procura{
+	float:left;
+	margin:14px 0 0 0;
+	border:0;
+	padding:0;
+	width:30px;
+	height:30px;
+}
+
+#btn-procura{
+	float: left;
+	margin: 0 12px;
+}
+
+
+#diario_semana{
+	height: 570px;
+}
+
+#menu_gmap{
+	float: left;
+	margin: 0;
+	width: 160px;
+}
+
+#conteudo-previsao{
+	padding-bottom: 20px;
+}
+
+#flash_formato{
+	height:1200px;
+	display:block;
+	margin-top:6px;
+}
+
+#conteudo_central_previsao{
+	width: 656px;
+	margin:0 0 0 8px;
+	padding-top:0;
+	float:left;
+	overflow:hidden;
+	position:relative;
+}
+
+
+#mapas_display,
+#fonte_display,
+#estacao_display,
+.arrudeia_item_previsao{
+	float: left;
+	width:608px;
+	height: 340px;
+	position:relative;
+	margin:0;
+	padding: 0;
+	border:0;
+	overflow:hidden;
+}
+
+#vento_display{
+	height:295px;
+}
+
+
+#arrudeia_espectral{
+	float: left;
+	width:490px;
+	display:none;
+}
+
+#mapas_display{height:376px;}
+
+#fonte_display{float:left;}
+
+#estacao_display{
+	height:600px;
+	width:620px;
+	padding:0;
+	margin:20px;
+	display:none;
+}
+
+#menu_boias,
+#menu_estacoes{
+	width:610px;
+	margin-bottom: 6px;
+}
+
+#envoltorio_mapas{
+	position:relative;
+	width:608px;
+	height:360px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#sumario_semana,
+.envoltorio_titles,
+.envoltorio_graficos{	
+	position:absolute;
+	bottom:45px;
+	left:43px;
+	width:520px;
+	z-index:1;
+	height:270px;
+}
+
+.envoltorio_graficos{	
+	overflow:hidden;
+}
+
+.envoltorio_graficos_interno{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1700px;
+	height:250px;
+	z-index:2;
+}
+
+
+.linha_dados{
+	position:absolute;
+	left:6px;
+	width:1px;
+	height:200px;
+	border-left: 2px dotted #fff;
+	z-index: 20;
+}
+
+.marcador{
+	position: absolute;
+	top: 100px;
+	left: -5px;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #000;
+	z-index: 21;
+}
+
+.linhaData{
+	background-color: #eee;
+}
+
+.linhaTopo{
+	color: #fff;
+	background-color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+
+.branco{
+	color: #fff;
+}
+
+.linhaTotal,
+#marcadorTotal{
+	background-color: #fff;
+	border: 2px solid #fff;
+	left: -6px;
+}
+
+.linhaVagas,
+#marcadorVagas{
+	background-color: #9f9;
+}
+
+.linhaSws,
+#marcadorSws{
+	background-color: #f99;
+}
+
+.linhaSwn,
+#marcadorSwn{
+	background-color: #99f;
+}
+
+.linhaVento,
+#marcadorVento{
+	background-color: #ffa;
+}
+
+.linhaRajada{
+	background-color:#f90;
+}
+
+.quadro_dados{
+	position:absolute;
+	width:260px;
+	height:158px;
+	padding: 4px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #333;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #666;
+	background-color: #fff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333;	
+	top: 0;
+	left: 48px;
+	z-index: 100;
+}
+
+
+.quadro_dados td{font-size: 10px;padding: 1px 0;color: #000;}
+
+
+
+#dados_vento{
+	height:92px;
+}
+
+
+#graficos_vento{
+	bottom: 0;
+	height: 270px;
+}
+
+#titles_vento{
+	bottom:50px;
+	z-index: 10;
+}
+
+#envoltorio_espectro{
+	width:540px;
+	height:360px;
+	float:left;
+	margin:0;
+}
+
+
+.envoltorio_titles{
+	z-index:10;
+	bottom:90px;
+	height:180px;
+}
+
+.envoltorio_opcoes_grafico{
+	float: left;
+	margin:2px 0 0 43px;
+	width:450px;
+	height:26px;
+}
+
+#form_data_altura{
+	float: right;
+	margin:2px 0 0 8px;
+	width:248px;
+	height:20px;
+}
+
+#form_data_altura .seta_data a{
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333;
+	text-decoration:none;	
+	padding:1px 2px;
+	margin:0 2px;
+}
+
+#form_data_altura .seta_data a:hover{
+	color:#fff;
+	background-color:#036;
+	display:block;
+}
+
+#form_data_altura select{
+	float: left;
+	margin:1px 2px;
+	border:1px solid #999;
+}
+
+#previsao_local{
+	float: left;
+	margin:0;
+	padding:0;
+	width:490px;
+}
+
+#data_hoje,
+#fonte_display,
+#form_data_altura option,
+#form_data_altura input{
+	float: left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#036;	
+	border:1px solid #999;
+	margin-top:1px;
+}
+
+#data_hoje{
+	border:0;
+	padding:2px 6px;
+	display:none;
+	float:right;
+	border:1px solid #999;
+}
+
+#fonte_display{
+	margin:0;
+	position:relative;
+	height:136px;
+}
+
+#fonte_display #conteudo{
+	position:absolute;
+	bottom:8px;
+	left:8px;
+	width:460px;
+	height:120px;
+}
+
+#fonte_display #conteudo p{margin:4px 6px;}
+
+#form_data_altura option{border:0;}
+
+#botao_data{
+	float: left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:14px;
+	color:#036;	
+	border:0;
+	margin:1px 4px;
+	height:19px;
+	padding:0 4px 2px 4px;
+	background-color:#ddd;
+}	
+
+#botao_data:hover{
+	color:#000;	
+	background-color:#eee;
+}	
+
+.envoltorio_dia_titles{
+	float: left;
+	margin:0;
+	width:104px;
+	position:relative;
+	border-right:2px solid #333;
+	height:200px;
+}
+
+.envoltorio_dia_mare,
+.envoltorio_dia{
+	float: left;
+	margin:0;
+	width:104px;
+	height:175px;
+	position:relative;
+	border-right:2px solid #333;
+}
+
+#mare_dia1{border-left:1px solid #000;}
+
+#tabela_mares{
+	height:178px;
+	width: 530px;
+	top:25px;
+}
+
+.envoltorio_hora_sumario_noite,
+.envoltorio_hora_sumario{
+	border-right:1px solid #ccc;
+}
+
+.envoltorio_hora_sumario_noite,
+.envoltorio_hora_sumario{
+	width:64px;
+	height: 523px;	
+	padding: 0;
+	margin: 2px 0 0 0;
+	float: left;
+}
+
+.envoltorio_dia_sumario, 
+.envoltorio_dia_sumario .dia,
+.direcao_sumario,
+.envoltorio_hora_sumario_noite,
+.envoltorio_hora_sumario{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:16px;
+	color:#036;
+	float:left;
+	text-align:center;
+}
+
+.envoltorio_hora_sumario_noite{
+	background-color:#ddd;
+}
+
+
+.hora_sumario,
+.direcao_sumario,
+.envoltorio_hora_sumario .hora{
+	width:100%;
+}
+
+.envoltorio_dia_sumario .dia{
+	background-color:#eee;
+	margin:0;
+}
+
+.envoltorio_dia_sumario,
+.envoltorio_dia_sumario .dia{
+	width:536px;
+}
+
+.envoltorio_dia_sumario{
+	margin: 2px 3px 0 0;
+	height: 538px;
+}
+
+.rotulo_dia,
+.num_escala,
+.num_escala2{
+	position:absolute;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-align:center;
+}
+
+.nome_sumario_estacao,
+.rotulo_sumario_semana_dia_mare,
+.rotulo_sumario_semana_extenso,
+.cabeca_sumario_semana,
+.rotulo_sumario_semana_dia_cz,
+.rotulo_sumario_semana_dia_surf,
+.rotulo_sumario_semana_dia,
+.rotulo_sumario_semana_cz,
+.rotulo_sumario_mare,
+.rotulo_sumario_mare2,
+.rotulo_sumario_mare_ext,
+.rotulo_sumario_mare_ext2,
+.rotulo_sumario_semana_bco,
+.rotulo_sumario_semana_bco2,
+.rotulo_sumario_semana_bco_surf,
+.rotulo_sumario_semana_swl,
+.rotulo_sumario_semana_swl2,
+.rotulo_sumario_semana_swls,
+.rotulo_sumario_semana,
+.rotulo_sumario_dia,
+.rotulo_sumario_semana_dia2,
+.rotulo_sumario_semana_dia3,
+.rotulo_sumario_1linha,
+.rotulo_sumario_dir,
+.rotulo_sumario_per,
+.rotulo_sumario,
+.rotulo_estacao_hora,
+.rotulo_estacao_vento{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:13px;
+	color:#333;
+	text-align:center;
+	float:left;
+}
+
+.cabeca_sumario_semana{
+	height:15px;
+	line-height:11px;
+	padding:6px 0;	
+	float:left;
+	color:#eee;
+	font-weight:bold;
+	background-color:#923504;
+	border-bottom:1px solid #ccc;
+	text-align:left;
+}
+
+.rotulo_sumario_dia,
+.envoltorio_dia_sumario .dia{
+	height:11px;
+	line-height:11px;
+	padding:3px 0;
+	background-color:#ccc;
+}
+
+.linha_titulo_sumario_estacao,
+.linha_sumario_semana_top,
+.linha_sumario_semana_cz2,
+.linha_sumario_semana_cz,
+.linha_sumario_semana_mare,
+.linha_sumario_semana_mare2,
+.linha_sumario_semana_link_mare,
+.linha_sumario_semana{
+	width:auto;
+	float:left;
+}
+
+.linha_sumario_semana_mare2,
+.linha_sumario_semana_link_mare,
+.linha_sumario_semana_mare{
+	width: 602px;
+	background: #ddd;
+}
+
+.linha_sumario_semana_mare{
+	background: #eee;
+}
+
+.linha_sumario_semana_link_mare{
+	background: #fff;
+	text-align: center;
+	padding: 8px 0 0 0;
+}
+
+.linha_titulo_sumario_estacao,
+.linha_sumario_semana_top{ border-bottom:2px solid #999; }
+
+.linha_titulo_sumario_estacao{ 
+	height: 50px;
+	width: 616px;
+}
+
+.linha_titulo_sumario_estacao #data_estacao,
+.linha_titulo_sumario_estacao #nome_estacao{
+	padding: 12px 0px;
+}
+
+.linha_sumario_semana_cz{ background-color:#eee; }
+.linha_sumario_semana_cz2{ background-color:#ddd; }
+
+.nome_sumario_estacao,
+.rotulo_sumario_semana_dia_mare,
+.rotulo_sumario_semana_extenso,
+.rotulo_sumario_semana_dia_cz,
+.rotulo_sumario_semana_dia_surf,
+.rotulo_sumario_semana_dia,
+.rotulo_sumario_semana_dia2,
+.rotulo_sumario_semana_dia3,
+.rotulo_sumario_semana_swl,
+.rotulo_sumario_semana_swl2,
+.rotulo_sumario_semana_swls,
+.rotulo_sumario_semana_bco,
+.rotulo_sumario_semana_bco2,
+.rotulo_sumario_semana_bco_surf,
+.rotulo_sumario_mare,
+.rotulo_sumario_mare2,
+.rotulo_sumario_mare_ext,
+.rotulo_sumario_mare_ext2,
+.rotulo_sumario_semana_cz,
+.rotulo_sumario_semana,
+.rotulo_estacao_hora,
+.rotulo_estacao_vento{
+	height:15px;
+	line-height:11px;
+	padding:6px 0;	
+	width:100px;
+	border-right:1px solid #000;
+}
+
+
+
+.rotulo_sumario_semana_dia_surf{
+	width:78px;
+}
+
+.rotulo_sumario_semana_bco_surf{
+	width:88px;
+}
+
+.rotulo_estacao_vento{
+	font-size:11px;
+	line-height:11px;
+}
+
+.rotulo_estacao_hora{
+	width: 46px;
+	font-size:10px;
+	line-height:10px;
+}
+
+.nome_sumario_estacao{
+	font-size:16px;
+	line-height:16px;
+	width: 200px;
+}
+
+.link_logo_estacao_0{
+	float: right;
+	border:0;
+}
+
+.logo_sumario_estacao{
+	width: 280px;
+	height: 40px;
+}
+
+.bloco_sumario_estacao{
+	float: left;
+	margin-bottom: 12px;
+}
+
+.div_tempo_estacao{
+	position: relative;
+	width: 46px;
+	float: left;
+}
+
+.img_tempo_estacao{
+	position: absolute;
+	top: -8px;
+	left: 0px;
+}
+
+.rotulo_sumario_semana_dia_mare,
+.rotulo_sumario_semana_swl{
+	width: 82px;
+}
+
+.rotulo_sumario_semana_extenso{
+	width: 520px;
+	border: 0;
+}
+
+.rotulo_sumario_mare,
+.rotulo_sumario_mare2{
+	width:67px;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding:6px 3px;
+	border: 0;
+}
+
+.rotulo_sumario_mare_ext,
+.rotulo_sumario_mare_ext2{
+	width:80px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding:6px 20px;
+	border: 0;
+}
+
+.rotulo_sumario_mare_ext2,
+.rotulo_sumario_mare2{
+	background: #ccc;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #bbb;
+}
+
+.mare_baixa,
+.mare_alta{
+	float:left;
+	padding:4px 3px;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:#369;
+	position:absolute;
+	top:2px;
+	right:2px;
+}
+
+.mare_baixa{
+	background-color:#069890;
+}
+
+.seta_mare{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#069890;
+	position:absolute;
+	right:-7px;
+	top:6px;
+}
+
+
+.rotulo_sumario_semana_bco2,
+.rotulo_sumario_semana_swl2{ border:0; }
+
+.rotulo_sumario_semana_dia2{
+	background-color:#eee;
+}
+.rotulo_sumario_semana_dia3{
+	background-color:#fff;
+}
+
+.rotulo_sumario_semana_cz{background-color:#eee;}
+
+.rotulo_sumario_semana_dia_cz,
+.rotulo_sumario_semana{background-color:#ddd;}
+
+.hora_sumario,
+.rotulo_sumario_hora{
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size:10px;
+	line-height:10px;
+	color:#fff;
+	text-align:center;
+	float:left;
+	width:100%;
+	padding:1px 0;
+	background-color:#333;
+	height:10px;
+	margin: 0;
+}
+
+.rotulo_sumario_hora{
+	margin: 0 0 1px 0;
+}
+
+.rotulo_sumario_per{
+	background-color:#eee;
+}
+
+.rotulo_sumario_1linha,
+.rotulo_sumario_dir,
+.rotulo_sumario_per,
+.direcao_sumario,
+.rotulo_sumario{
+	height:21px;
+	padding:0;
+	width:80px;
+	margin: 2px 0;
+	font-size:9px;
+	line-height:20px;
+}
+
+
+.rotulo_sumario_dia{
+ width: 80px;
+}
+
+
+
+.sep18,.sep17,.sep16,.sep15,.sep14,.sep13,.sep12,.sep11,.sep10,.sep9,.sep8,.sep7,.sep6,.sep5,.sep4,.sep3,.sep2,.sep1,.sep0,.sea0,
+.sea14,.sea13,.sea12,.sea11,.sea10,.sea9,.sea8,.sea7,.sea6,.sea5,.sea4,.sea3,.sea2,.sea1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:16px;
+	color:#036;
+	float:left;
+	text-align:center;
+	width:100%;
+	height:23px;
+	padding:4px 0;
+	margin: 1px 0;
+}
+
+.rotulo_sumario_dia{
+	margin: 2px 0;
+	width:80px;
+}
+
+.rotulo_sumario_1linha{
+	height:15px;
+	padding:6px 0;
+	margin: 0;
+}
+
+.rotulo_sumario_dir{
+	border-bottom:12px solid #333;
+}
+
+
+.rotulo_dia{
+	top:0;
+	left:0;
+	z-index:20;
+	width:100%;
+	height:22px;
+	background-color:#ddd;
+	border-right:1px solid #333;
+}
+
+.envoltorio_dia{
+	background-color:#49757b;
+	height:200px;
+}
+
+.coluna_dia{
+	position:absolute;
+	z-index:1;
+	top:0;
+	left:25%;	
+	width:50%;
+	height:100%;
+	background-color:#3f94a0;
+}
+
+.meio_dia{
+	position:absolute;
+	z-index:2;
+	top:0;
+	left:0;	
+	width:50%;
+	height:100%;
+	border-right:1px solid #fff;
+}
+
+.menu_mapas{
+	border-bottom: 1px solid #000;
+	float: left;
+	margin:0;
+	width:100%;
+	height: 22px;
+}
+
+
+.menu_mapas2{
+	border-bottom: 1px solid #000;
+	float: right;
+	margin:0;
+	width:400px;
+	height: 22px;
+	display: none;
+}
+
+ul.abas_graficos,
+ul.abas2,
+ul.abas{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 0;
+	color: #FFF;
+	list-style-type: none;
+}
+
+ul.abas{
+	width: 360px;
+	margin: 0 0 0 6px;
+	float:left;
+}
+
+
+ul.abas_graficos{
+	width: 450px;
+	margin: 0 0 0 6px;
+	float:left;
+}
+
+ul.abas2{
+	width: 400px;
+	margin: 0;
+	float:right;
+}
+
+ul.dias,
+ul.abas_graficos,
+ul.abas2,
+ul.abas{
+	height: 20px;
+}
+
+ul.abas_graficos li,
+ul.abas2 li,
+ul.abas li{
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+ul.dias li,
+ul.abas_graficos li a,
+ul.abas_graficos li a.normal,
+ul.abas2 li a.normal,
+ul.abas2 li a,
+ul.abas li a.normal,
+ul.abas li a{
+	color: #eaeaea;
+	background-color: #205959;
+	padding: 0 6px  2px 6px;
+	margin: 0 1px -2px 1px;
+	text-decoration: none;
+	float: left;
+	display: block;
+}
+
+ul.abas_graficos li a:hover,
+ul.abas2 li a:hover,
+ul.abas li a:hover{
+	color: #FFF;
+	background-color: #232b46;
+	text-decoration: none;
+	display: block;
+}
+
+ul.abas_graficos li.ativa a,
+ul.abas2 li.ativa a,
+ul.abas li.ativa a{
+	color: #000;
+	background-color: #FFF;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	margin: 0 1px -2px 1px;
+	padding: 0 6px 2px 6px;
+	text-decoration: none;
+	float: left;
+	list-style-type: none;
+}
+
+
+#menu_sumario_dia{
+	border-bottom: 1px solid #000;
+	float: left;
+	width:600px;
+	height: 44px;
+	overflow-x:scroll;
+	overflow-y:hidden;
+} 
+
+#envoltorio_rotulos_sumario{
+	width:80px;
+	background-color:#fff;
+	padding:0;
+	float: left;
+	overflow: hidden;
+}
+
+#diario_semana{
+	width: 520px;
+	height:690px;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+#diario_dia{
+	position: absolute;
+	height:540px;
+	margin: 0;
+	padding: 0;
+	width: 8640px;
+}
+
+.menu_previsao{
+	width:520px;
+	border-bottom: 1px solid #000;
+	float: left;
+	margin-top: 2px;
+}
+
+
+#menu_tipo_previsao{
+	float:left;
+	border-bottom:1px solid #000;
+	width:380px;
+	height:30px;
+}
+
+#botao_tipo{
+	float:left;
+	width:66px;
+	border-top:2px solid #ccc;
+	border-right:2px solid #aaa;
+	border-bottom:2px solid #999;
+	border-left:2px solid #eee;
+	margin-right:8px;
+	background-color:#555;
+	color:#bbb;
+	margin-top:2px;
+}
+
+#botao_tipo:hover{
+	border-top:2px solid #a3abc6;
+	border-right:2px solid #838ba6;
+	border-bottom:2px solid #737b96;
+	border-left:2px solid #c3cbe6;
+	background-color:#232b46;
+	color:#ddd;
+}
+
+ul.abas_sumario{
+	font-size: 17px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	height: 26px;
+	color: #fff;
+	list-style-type: none;
+	width: 1020px;
+}
+
+
+ul.abas_sumario li {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+ul.abas_sumario li a.normal,
+ul.abas_sumario li a{
+	color: #eaeaea;
+	background-color: #205959;
+	text-decoration: none;
+	float: left;
+	display: block;
+	text-align:center;
+	padding: 4px 9px 2px 9px;
+	margin: 0 1px;
+}
+
+ul.abas_sumario li.ativa a{
+	color: #000;
+	background-color: #FFF;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	text-decoration: none;
+	float: left;
+	list-style-type: none;
+	margin: 0 1px -2px 1px;
+	padding: 4px 9px 2px 9px;
+}
+
+ul.abas_sumario li a:hover{
+	color: #fff;
+	background-color: #232b46;
+	text-decoration: none;
+	display: block;
+}
+
+ul.abas_sumario li.ativa a:hover{
+	color: #232b46;
+	background-color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+
+ul.abas_swell{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	height: 20px;
+	color: #fff;
+	list-style-type: none;
+	float:left;
+	width:510px;
+	border-bottom: 1px solid #000; 
+	padding-left:10px;
+	height: 22px;
+}
+
+ul.abas_swell li{
+	color: #000;
+	background-color: #FFF;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	text-decoration: none;
+	float: left;
+	list-style-type: none;
+	margin: 0 1px -2px 1px;
+	padding: 0 6px 2px 6px;
+}
+
+
+#arrudeia_sumario_semana{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+.arrudeia_tabela_sumario{
+	float:left;
+	margin:4px;
+	border:1px solid #999; 
+}
+
+#arrudeia_sumario_dia{
+	float: left;
+	position: relative;
+	height: 450px;
+}
+
+.envoltorio_escala_lateral,
+.envoltorio_escala{
+	width:1035px;
+	height:230px;
+	bottom:58px;
+	position:absolute;
+	z-index:2;
+	overflow:hidden;
+}
+
+.envoltorio_escala_lateral{
+	width:42px;
+}
+
+#linhas_vento,
+#escala_metros,
+#escala_pes{
+	left:0;
+	height: 215px;
+}
+
+#linhas_vento2,
+#escala_metros2,
+#escala_pes2{
+	right:0;
+	height: 215px;
+}
+
+#linhas_vento,
+#linhas_vento2{
+	bottom: 20px;
+}
+
+#linhas_vento3,
+#escala_metros3,
+#escala_pes3{
+	left:0;
+	z-index:5;
+	height: 160px;
+}
+
+#linhas_vento3{
+	bottom: 60px;
+	height: 160px;
+}
+
+#titles_altura{
+	z-index:10;
+}
+
+.linhas_escala{
+	width:42px;
+	height:24px;
+	left:0;
+	position:absolute;
+	z-index:3;
+	border-top:1px dashed #666;
+	border-bottom:1px dotted #666;
+}
+
+.linhas_escala_extenso{
+	width:1035px;
+	height:24px;
+	left:0;
+	position:absolute;
+	z-index:3;
+	border-top:1px dashed #666;
+	border-bottom:1px dotted #666;
+}
+
+.linhas_escala_pes{
+	width:42px;
+	height:1px;
+	left:0;
+	position:absolute;
+	z-index:3;
+	border-bottom:1px dotted #666;
+}
+
+.linhas_escala_extenso_pes{
+	width:1035px;
+	height:29px;
+	left:0;
+	position:absolute;
+	z-index:3;
+	border-top:1px dotted #666;
+	border-bottom:1px dotted #666;
+}
+
+.mares_dia{	
+	position:absolute;
+	top:22px;
+	width:100%;
+	height:178px;
+	float:left;
+}
+
+.mare_horario{	
+	float:left;
+	width:104px;
+	height:26px;
+}
+
+#lista_municipios,
+#unid_mare,
+.altura_mare,
+.hora_mare{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:16px;
+	color:#333;
+	float:left;
+	width:40px;
+	margin:6px;
+}
+
+#lista_municipios{
+	width:620px;
+	font-weight:normal;
+	margin-left:182px;
+}
+
+#unid_mare{
+	position:absolute;
+	top:0;
+	right:6px;
+	width:150px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:right;
+}
+
+.altura_mare{
+	text-align:right;
+	font-weight:bold;
+	font-size:11px;
+	line-height:15px;
+	float: right;
+}
+
+.num_escala,
+.num_escala2{
+	line-height:11px;
+	left:12px;
+	z-index:5;
+	width:19px;
+	height:12px;
+	background-color:#fff;
+	display:block;
+}
+
+.num_escala2{
+	left:577px;
+}
+
+.unid_escala2,
+.unid_escala{
+	font-family:Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	line-height:11px;
+	text-align:center;
+	width:28px;
+	height:12px;
+	display:block;
+	left:6px;
+	position:absolute;
+	z-index:6;
+}
+
+#escala_energia .unid_escala2,
+#escala_energia2 .unid_escala2{
+	display: none;
+}
+
+
+.direcoes_dia_vento,
+.direcoes_dia{
+	position:absolute;
+	left:0;
+	z-index:2;
+	width:100%;
+	height:50px;
+	bottom:-50px;
+	border-right:1px solid #333;
+	border-bottom: 1px solid #333;
+}
+
+.envoltorio_escala_periodo{
+	position:absolute;
+	left:0;
+	z-index:3;
+	width:100%;
+	height:40px;
+	bottom:35px;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	line-height:14px;
+	text-align:center;
+}
+
+.direc,
+.rotulo_direcoes{
+	font-family:Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	line-height:10px;
+	text-align:center;
+}
+
+.rotulo_direcoes{
+	position:absolute;
+	left:0;
+	z-index:2;
+	width:43px;
+	height:44px;
+	bottom:0;
+	background-color:#eee;
+	padding:5px 0 5px 0;
+	cursor: default;
+}
+
+.direc{
+	float:left;
+	width:20px;
+}
+
+.direcao4,
+.direcao3,
+.direcao2,
+.direcao1{
+	float:left;
+	width:22px;
+	margin:4px 0 0 4px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.direcao4 img,
+.direcao3 img,
+.direcao2 img,
+.direcao1 img{
+	width:43px;
+	height:24px;
+}
+
+.topo_item_lateral,
+.topo_item_previsao{
+	float: left;
+	background-color:#232b46;
+}
+
+.topo_item_previsao{
+	width:492px;
+	margin-top:8px;
+	height:32px;
+}
+
+.topo_item_lateral{
+	width:156px;
+	height:20px;
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#eee;	
+	padding:7px;
+	margin:0;
+}
+
+#lista_praias,
+#lista_municipios_lateral{
+	float:left;
+	width:154px;
+	margin: 0 0 8px 0;
+	padding:0;
+	border:1px solid #036;
+	background-color:#eee;
+	list-style-type:none;
+}
+
+.item_lista_previsao,
+.titulo_lista_previsao,
+.nome_lista_praias,
+.nome_lista_municipios{
+	float:left;
+	margin:0;
+	padding:0;	
+	width:100%;
+	clear:both;
+	list-style-type:none;
+}	
+
+ul.item_lista_previsao{padding:0 0 8px 0;margin:0;}
+
+ul.item_lista_previsao li{padding:2px 0 2px 22px;margin:0;}
+
+.titulo_lista_previsao li{padding:4px 0 4px 20px;margin:0;list-style-type:none;}
+
+.item_lista_previsao,
+.item_lista_previsao a,
+.titulo_lista_previsao a,
+.nome_lista_praias a,
+.nome_lista_municipios a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#036;
+	margin:0;
+	padding:4px;
+	width:146px;
+	display:block;
+	text-decoration:none;
+}
+
+.titulo_lista_previsao a{padding:0;font-size:15px;}
+
+.item_lista_previsao a{padding:0;font-size:12px;color:#232b46;}
+
+.titulo_lista_previsao a:hover{color:#369;}
+
+.nome_lista_praias a{font-size:12px;color:#147;}
+
+.nome_lista_praias a:hover,
+.nome_lista_municipios a:hover{
+	color:#eee;
+	background-color:#fe8d1e;
+}
+
+#aguarde_dados_altura,
+.aguarde_dados,
+.topo_lista_previsao,
+.topo_label_previsao{
+	margin:8px;
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#eee;
+	float:left;
+}
+
+.topo_lista_previsao{
+	color:#000;
+	margin:8px 0 4px 10px;
+	width:100%;
+	clear:both;
+	float:left;
+}
+
+.topo_lista_previsao a{
+	text-decoration:none;
+	color:#000;
+	display:block;
+	width:auto;
+	float:left;
+	padding:4px;
+}
+
+.topo_lista_previsao a:hover{
+	text-decoration:none;
+	color:#232b46;
+	background-color:#ddd;
+	width:auto;
+}
+
+#aguarde_dados_altura{
+	text-align:center;
+	top:120px;
+	left:50px;
+	position:absolute;
+	width:490px;
+	height:20px;
+	display:block;
+	z-index:1000;
+	background:linear-gradient(to bottom,#5793df 0,#4a85cf 50%);
+}
+
+.aguarde_dados{
+	text-align:center;
+	margin-top:20px;
+	width:100%;
+	color:#036;
+	display:none;
+}
+
+#arrudeia_titulo{
+	float:left;
+	width:100%;
+	height:20px;
+	clear:both;
+	margin: 0;
+	padding: 0;
+}
+
+.titulo_mapa_previsao2,
+.titulo_mapa_previsao{
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#232b46;
+	float:left;
+	width:49%;
+	height:20px;
+	text-align:center;
+	margin-top: 4px;
+}
+
+.titulo_mapa_previsao2{
+	font-size:12px;
+	width: 300px;
+	float: right;
+	display: none;
+}
+
+.titulo_mapa_previsao{
+	width: 100%;
+}
+
+.topo_seta_previsao{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	float:right;
+}
+
+.topo_seta_previsao a{
+	padding:8px;
+	display:block;
+	color:#eee;
+	text-decoration:none;
+}
+
+.texto_zoom_selecionado,
+.titulo_zoom,
+.texto_zoom_br,
+.texto_zoom{
+	font-weight:bold;
+	color:#eee;
+	width:66px;
+	float:left;
+	text-align:center;
+	padding:2px;
+	position:relative;
+	margin-bottom:4px;
+}
+.titulo_zoom{
+	background-color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+
+.texto_zoom_selecionado,
+.texto_zoom{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.texto_zoom_selecionado a,
+.texto_zoom_br a,
+.texto_zoom a{
+	text-decoration:none;
+	color:#eee;
+	margin:0;
+	padding:0;
+}
+
+.texto_zoom_selecionado,
+.texto_zoom_br a:hover,
+.texto_zoom a:hover{
+	text-decoration:none;
+	color:#fff;
+	background-color:#666;
+	display:block;
+}
+
+.texto_escala_vertical{
+	float:right;
+	width:20px;
+	height:245px;
+	background-color:#000;
+	padding:20px 2px 0 10px;
+	border-top:1px solid #bbb;
+}
+
+#escala_primaria,
+#escala_secundaria,
+.escala_vertical,
+.zoom_mapa{
+	float:left;
+	width:38px;
+	display:block;
+	background-color:#333;
+	position:relative;
+	margin-top:4px;
+}
+
+#escala_primaria,
+#escala_secundaria,
+.escala_vertical{
+	height:260px;
+	background-color: #fff;
+}
+
+#escala_secundaria{
+	display: none;
+	overflow: hidden;
+	width: 30px;
+	height: 265px;
+}
+
+
+#escala_primaria,
+#escala_secundaria{
+	margin-top: 0;
+}
+
+.zoom_mapa{height:250px;margin:6px 4px 0 6px;}
+
+.mapa_surfguru{
+	margin: 8px 2px 0 12px;
+	padding:0;
+	float:left;
+	width:260px;
+	height:260px;
+	position:relative;
+	overflow:hidden;
+}
+
+#imagem_mapa_surfguru_hindcast2,
+#imagem_mapa_surfguru_hindcast,
+#imagem_mapa_surfguru_inter,
+#imagem_mapa_surfguru_inter_lr,
+#imagem_mapa_surfguru_br,
+#imagem_mapa_surfguru_br_lr,
+#imagem_mapa_surfguru_lr,
+#imagem_mapa_tsm,
+#imagem_mapa_tsm_pais,
+#imagem_mapa_surfguru{
+	position:absolute;
+	max-width: none;
+}
+
+#imagem_mapa_surfguru_inter,
+#imagem_mapa_surfguru_inter_lr,
+#imagem_mapa_surfguru_br_lr,
+#imagem_mapa_surfguru_br,
+#imagem_mapa_surfguru_lr,
+#imagem_mapa_surfguru{
+	width: 4160px;
+	height: 1040px;
+}
+
+#imagem_mapa_surfguru_hindcast2,
+#imagem_mapa_surfguru_hindcast{
+	width: 2394px;
+	height: 534px;
+}
+
+#imagem_mapa_surfguru_inter_lr,
+#imagem_mapa_surfguru_br_lr,
+#imagem_mapa_tsm,
+#imagem_mapa_surfguru_lr{
+	z-index: 20;
+}
+
+#imagem_mapa_surfguru_inter,
+#imagem_mapa_surfguru_br,
+#imagem_mapa_tsm_pais,
+#imagem_mapa_surfguru{
+	z-index: 21;
+}
+
+
+#imagem_mapa_tempo_br,
+#imagem_mapa_tempo{
+
+	position:absolute;
+	max-width: none;
+	width: 8320px;
+	height: 260px;
+	z-index: 22;
+	display:none;
+}
+
+
+
+#textos_mapa,
+#textos_mapa_zoom{
+	position: absolute; 
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 260px; 
+	height: 260px; 
+	display: none;
+}
+
+
+#imagem_mapa_cptec{
+	max-width: none;
+	width: 250px;
+	height: 250px;
+	display:none;
+}
+
+#imagem_mapa_tsm,
+#imagem_mapa_tsm_pais{
+	display:none;
+}
+
+
+.arrudeia_mapa{
+	padding:0;
+	margin:0;
+	float:left;
+	width:100%;
+}
+
+.arrudeia_dias{
+	float:left;
+	padding:0 0 4px 2px;
+	height:65px;
+	width:550px;
+	margin:0;
+	overflow:hidden;
+	position: relative;
+}
+
+#barra_dias{
+	width:1700px;
+	height:65px;
+	position: absolute;
+}
+
+
+.quadrado_dia_selecionado,
+.quadrado_dia{
+	position:relative;
+	width:104px;
+	height:35px;
+	margin:12px 1px 0 0;
+	float:left;
+	display: none;
+}
+
+.h15,
+.h9{
+	position:absolute;
+	top:0;
+	background: url(dummy.gif);
+	width:50px;
+	height:35px;
+}
+
+.h9 {left:2px;z-index:10;}
+.h15 {right:2px;z-index:12;}
+
+.h15 a,
+.h9 a{
+	display:block;
+	width:50px;
+	height:35px;
+	margin:0;
+	padding:0;
+}
+
+.escala_cores{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	width:38px;
+	height:260px;
+	background-color:#bbb;
+	overflow: hidden;
+}
+
+.escala_cores_horizontal{
+	width:460px;
+	height:20px;
+	background:#bbb;
+	float:left;
+	margin:2px 70px;
+}
+
+#escala_periodo, #escala_vento, #titulo_periodo, #titulo_vento, #titulo_tempo,
+#titulo_persul, #titulo_pernorte, #titulo_pervagas,
+#titulo_altsul, #titulo_altnorte, #titulo_altvagas,
+#escala_tsm,#titulo_tsm
+{display:none;}
+
+.escala_numeros_black,
+.escala_numeros{
+	position:absolute;
+	top:-9px;
+	left:8px;
+	z-index:2;
+	width:38px;
+	height:260px;
+	font-family: Verdana;
+	font-size:12px;
+	line-height:19px;
+}
+
+#escala_numeros_tsm{
+	position:absolute;
+	z-index: 2;
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: center;
+	color: #fff;
+	line-height: 13px;
+	font-weight: bold;
+	top:0;
+	left:10px;
+	width:16px;
+}
+
+.escala_numeros_black_horizontal{
+	position:absolute;
+	top:9px;
+	left:8px;
+	z-index:2;
+	width:480px;
+	height:30px;
+	font-family: Verdana,Arial,Helvetica;
+	font-size:12px;
+	color:#fff;
+	line-height:19px;
+}
+
+.escala_numeros{color:#fff;}
+.escala_numeros_black{color:#000;}
+
+.qep16,.qep15,.qep14,.qep13,.qep12,.qep11,.qep10,.qep9,.qep8,.qep7,.qep6,.qep5,.qep4,.qep3,.qep2,.qep1,
+.qea14,.qea13,.qea12,.qea11,.qea10,.qea9,.qea8,.qea7,.qea6,.qea5,.qea4,.qea3,.qea2,.qea1,
+.quadrado_escala{
+	width:38px;
+	height:18px;
+	display:block;
+	margin:1px 0 0 0;
+	float:left;
+}
+
+
+.ep18,.ep17,.ep16,.ep15,.ep14,.ep13,.ep12,.ep11,.ep10,.ep9,.ep8,.ep7,.ep6,.ep5,.ep4,.ep3,.ep2,.ep1,.ep0,
+.ea14,.ea13,.ea12,.ea11,.ea10,.ea9,.ea8,.ea7,.ea6,.ea5,.ea4,.ea3,.ea2,.ea1{
+	width:11px;
+	display:block;
+	position:absolute;
+	bottom:0;
+	z-index:10;
+	margin:0 1px;
+}
+.ep0{height:0;width:13px;}
+
+.p18,.p17,.p16,.p15,.p14,.p13,.p12,.p11,.p10,.p9,.p8,.p7,.p6,.p5,.p4,.p3,.p2,.p1{
+	width:23px;
+	height:20px;
+	display:block;
+	float:right;
+	font-family: Verdana,Arial;
+	font-size:13px;
+	line-height:17px;
+	color:#333;
+	text-align:center;	
+}
+
+.p2,.p18,.p17,.p16,.p15{color:#ddd;}
+
+.qea14,.sea14,
+.ea14{background-color:#a50569;}
+.qea13,.sea13,
+.ea13{background-color:#c02e8a;}
+.qea12,.sea12,
+.ea12{background-color:#af2f5f;}
+.qea11,.sea11,
+.ea11{background-color:#d63333;}
+.qea10,.sea10,
+.ea10{background-color:#db6d24;}
+.qea9,.sea9,
+.ea9{background-color:#e49d33;}
+.qea8,.sea8,
+.ea8{background-color:#f2c60a;}
+.qea7,.sea7,
+.ea7{background-color:#c3d96c;}
+.qea6,.sea6,
+.ea6{background-color:#91c955;}
+.qea5,.sea5,
+.ea5{background-color:#47ae62;}
+.qea4,.sea4,
+.ea4{background-color:#56ba99;}
+.qea3,.sea3,
+.ea3{background-color:#00aadC;}
+.qea2,.sea2,
+.ea2{background-color:#3879b9;}
+.qea1,.sea1,
+.ea1{background-color:#2e4993;}
+
+
+.p18,.qep18,.sep18,
+.ep18{background-color:#f0f;}
+.p17,.qep17,.sep17,
+.ep17{background-color:#cf1f8f;}
+.p16,.qep16,.sep16,
+.ep16{background-color:#af2f5f;}
+.p15,.qep15,.sep15,
+.ep15{background-color:#f00;}
+.p14,.qep14,.sep14,
+.ep14{background-color:#f60;}
+.p13,.qep13,.sep13,
+.ep13{background-color:#f90;}
+.p12,.qep12,.sep12,
+.ep12{background-color:#fc0;}
+.p11,.qep11,.sep11,
+.ep11{background-color:#ff0;}
+.p10,.qep10,.sep10,
+.ep10{background-color:#cf0;}
+.p9,.qep9,.sep9,
+.ep9{background-color:#9f0;}
+.p8,.qep8,.sep8,
+.ep8{background-color:#0f0;}
+.p7,.qep7,.sep7,
+.ep7{background-color:#0f9;}
+.p6,.qep6,.sep6,
+.ep6{background-color:#0fc;}
+.p5,.qep5,.sep5,
+.ep5{background-color:#0ff;}
+.p4,.qep4,.sep4,
+.ep4{background-color:#00dfff;}
+.p3,.qep3,.sep3,
+.ep3{background-color:#24b2ea;}
+.p2,.qep2,.sep2,
+.ep2{background-color:#4177c8;}
+.p1,.qep1,.sep1,
+.ep1{background-color:#002ad9;}
+
+.quadrado_dia{background-color:#bbb;}
+.quadrado_dia_selecionado{background-color:#ddd;}
+
+.area_play{
+	width:25px;
+	height:35px;
+	display:block;
+	float:left;
+    padding: 0;
+    margin: 17px 8px 0 10px;
+}
+
+.area_play img:hover{
+	cursor: pointer;
+}
+
+#fonte_display a,
+#botao_play_Stop a{
+	color:#777;
+	text-decoration:none;
+}
+
+#fonte_display a:hover,
+#botao_play_Stop a:hover{
+	color:#000;
+	text-decoration:none;
+}
+
+.hora15,
+.hora9{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	position:absolute;
+	top:0;
+}
+
+.hora9{	
+	left:8px;
+	z-index:1;
+}
+
+.hora15{
+	right:8px;
+	z-index:2;
+}
+
+
+.seta_zoom{
+	font-family: Verdana, Arial;
+	font-size:38px;
+	color:#666;
+	position:absolute;
+	top:-3px;
+	right:-12px;
+	height:27px;
+	display:none;
+	z-index:10;
+}
+
+.seta_zoom img{
+	width: 12px;
+	height: 22px;
+	border: 0;
+}
+
+.seta15,
+.seta9{
+	font-family: Arial;
+	font-size:18px;
+	line-height:13px;
+	height:13px;
+	color:#232b46;
+	position:absolute;
+	top:-13px;
+	display:none;
+	width:18px;
+	background-color:#fff;
+}
+
+.seta9{
+	left:10px;
+	z-index:5;
+}
+
+.seta15{
+	right:10px;
+	z-index:6;
+}
+
+.dia_semana{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#232b46;
+	font-weight:bold;
+	position:absolute;
+	bottom:2px;
+	left:6px;
+	z-index:3;
+}
+
+.dia_mes{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#232b46;
+	font-weight:normal;
+	position:absolute;
+	bottom:2px;
+	right:8px;
+	text-align:right;
+	z-index:4;
+}
+
+.area_click{
+	position:absolute;
+}
+
+.area_click a{
+	background: url(dummy.gif);
+	display:block;
+	width:20px;
+	height:20px;
+}
+
+.area_click a:hover{
+	border:1px dotted #666;
+}
+
+.banner_direito_quadrado,
+.banner_direito_retangular{
+	float:left;
+	width:130px;
+	padding:0;
+	margin:0 0 30px 0;
+	position:relative;
+}
+
+.coluna_lista_curta,
+.coluna_lista_larga,
+.coluna_lista{
+	width:200px;
+	margin-left:8px;
+	float:left;
+	list-style-type:none;
+	position:relative;
+}
+
+.coluna_lista_larga{width:280px;}
+
+.coluna_lista_curta{
+	width:170px;
+	margin-left:6px;
+}
+
+.coluna_direita_gde{
+	width:290px;
+	margin:0;
+	padding:8px;
+	float:left;
+	list-style-type:none;
+}
+
+#mapa_mundo{
+	height: 142px;
+	width:450px;
+	position:absolute;
+	top:28px;
+}
+
+#opcoes_previsao{
+	position:absolute;
+	bottom:8px;
+	right:15px;
+	width: 300px;
+	z-index:1;
+}
+
+#opcoes_previsao li{
+	margin-bottom:8px;
+}	
+
+#opcoes_previsao li a{
+	text-decoration:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#036;
+}	
+
+#opcoes_previsao li a:hover{
+	color:#369;
+}	
+
+
+#conteudo_leitura_boia{
+	margin:4px;
+	height:70px;
+	background:#fff;
+}
+
+
+#titulo_boia{
+	background-color:#205959;
+	margin:0;
+	padding:4px 0 4px 8px;
+	height:20px;
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+
+#titulo_boia b{
+	padding:0 0 0 8px;
+}
+
+
+#conteudo_dados_boia{
+	margin:6px 0 0 8px;
+	width:200px;	
+}
+
+#titulo_boia,
+#conteudo_leitura_boia{
+	float: left;
+	width:290px;	
+}
+
+#altura_boia{
+	float: left;
+	height:20px;
+	color:#036;
+	width: 290px;
+}
+
+#periodo_boia{
+	float: left;
+	height:20px;
+	color:#036;
+	width: 290px;
+}
+
+#direcao_boia{
+	float: left;
+	width:130px;
+	height:100px;
+	background:#fff;
+	display:block;
+}
+
+#temperatura_boia{
+	float: left;
+	height:20px;
+	color:#036;
+	width: 290px;
+}
+
+#grafico_24hs_boia{
+	float: left;
+	width:180px;
+	height:100px;
+	display:block;
+}
+
+.icone-periodo,.icone-vento{
+	background-image:url(direcoes-sprite.png);
+	background-color:#4a85cf;
+	margin-right: 4px;
+}
+
+.sse{background-position: -48px -2px !important;}
+.se{background-position: -25px -2px !important;}
+.ese{background-position: -2px -2px !important;}
+.s{background-position: -71px -2px !important;}
+.sso{background-position: -94px -2px !important;}
+.so{background-position: -116px -2px !important;}
+.oso{background-position: -139px -2px !important;}
+.o{background-position: -162px -2px !important;}
+.e{background-position: -162px -2px !important;}
+
+.ono{background-position: -162px -26px  !important;}
+.no{background-position: -140px -26px  !important;}
+.nno{background-position: -116px -26px  !important;}
+.n{background-position: -93px -26px  !important;}
+.nne{background-position: -71px -26px  !important;}
+.ne{background-position: -50px -26px  !important;}
+.ene{background-position: -26px -26px  !important;}
+.e{background-position: -2px -26px  !important;}
+
+.txt_dir{
+	width: 18px;
+	height:16px;
+	line-height:16px;
+	clear: both;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:13px;
+	float: left;
+}
+
+span.icone,a.icone{display:block;height:20px;width:20px;}
+
+#espectral_display{
+	float: left;
+	display: block;
+	text-transform: none;
+}
+
+#espectro_display{
+	float: left;
+	width:560px;
+	height:410px;
+	overflow:hidden;
+	margin: 0 0 10px 40px;
+	position: relative;
+}
+
+#mapa_Gmap,
+#mapa_Gmap_pequeno,
+#mares_display,
+#cptec,
+#marinha_do_brasil,
+#box-espectral,
+#boia_display,
+#wxtide,
+#box-mapas{
+	display: none;
+}
+
+#boia_dados{height:100px;}
+
+#mapa_Gmap{
+	float:left;
+	width: 580px; 
+	height: 260px;
+	margin: 20px;
+}
+
+#mapa_Gmap_pequeno{
+	float:left;
+	width:267px;
+	height:260px;
+	margin: 4px 0 0 10px;
+}
+
+#tipos-previsao{
+	display: block;
+	height: auto;
+}
+
+.margemDir0{
+    margin-right: 0;
+}
+
+.margemEsq0{
+    margin-left: 0;
+}
+
+#div_vazia_140px{
+    width: 140px;float: left;
+}
+
+#botao_grafico_weather{
+	position:absolute;
+	top:65px;
+	left:35px;
+}
+
+#grafico_weather{
+	display: none;
+}
+
+#hindcast_form{
+	float:right;
+	margin:0;
+	padding:0;
+	width: 190px;
+	z-index:30;
+}
+
+
+
+#hindcast_form button{
+	display:none;
+	float:left;
+}
+
+#btn-ver{
+	margin: 6px 0 0 8px;
+}
+
+#datepicker{
+	width:110px;
+	height: 23px;
+	line-height:25px;
+	color:#fff;
+	background-color:#1b4a86;
+	cursor:pointer;
+	border:1px solid #000;
+	float:left;
+	margin:5px 0;
+	position: relative; 
+	z-index: 30;
+	text-align: center;
+}
+
+#arrudeia_cameras{
+	float: left;
+	margin: 0 6px;
+	padding: 0;
+	width: 600px;
+}
+
+#camera_container{
+	float: left;
+	width: 612px;
+	height: 410px;
+	margin: 0;
+}
+
+#camera_lista{
+	list-style:none;
+	float:left;
+	width: 600px;
+	margin: 0;
+	padding: 8px 0;
+}
+ 
+#camera_lista li{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 150px; 
+	height: 45px;
+}
+
+#camera_lista li a{
+	text-decoration: none;
+	font-family:'Jockey One',verdana, sans-serif;
+	font-size: 16px;
+	padding:5px;
+	margin: 0;
+	line-height: 16px;
+	color:#036;
+	display: block;
+	width: 140px; 
+	height: 35px;	
+}
+
+#camera_lista li a:hover{
+	background: #ddd;
+}
+
+.site_cam{
+	float: right;
+	text-align: right;
+	font-family:verdana, arial, sans-serif;
+	font-size: 10px;
+	color: #555;
+	width: 250px;
+	margin: 0 12px;
+	line-height: 12px;
+}
+
+.site_cam a{
+	text-decoration: none;
+	color: #555;	
+	font-weight: bold;
+}
+
+.site_cam a:hover{
+	text-decoration: none;
+	color: #000;	
+}
+
+.local_cam{
+	float: left;
+	font-family:verdana, arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	width: 300px;
+}
+
+
+#conteudo-box1{
+	height:410px;
+}
+
+.barra_letreiro{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding:8px 0;
+	color:#036;
+	height:15px;
+}
+
+
+#botao_graficos_estacoes{
+	position:absolute;
+	left:0;
+	bottom:-5px;
+	width:600px;
+	height:30px;
+	background:#0a2b55;
+	color:#fff;
+	padding:4px 8px 0 8px;
+}
+
+#titulo_botao_estacoes{
+	float:left;
+}
+
+#seta_titulo_botao_estacoes{
+	float:right;
+}
+
+#boia0,
+#estacao0{
+	margin-left:6px;
+}
+
+#menu_estacoes,
+#menu_boias{
+	width:610px;
+}
+
+#leitura_tsm2,
+#leitura_tsm{
+	float:left;
+	width:40px;
+	height:22px;
+	margin-right:6px;
+	padding:6px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	text-align:center;
+}
+
+.grauc_tsm{
+	float:left;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+
+.texto_tsm{
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	width:470px;
+	margin-left:8px;
+}
+
+.et-2{background-color:#cc05ad;}
+.et0{background-color:#b005c4;}
+.et2{background-color:#9405de;}
+.et4{background-color:#7808f5;}
+.et6{background-color:#5c45f7;}
+.et8{background-color:#309cfa;}
+.et10{background-color:#1fbffc;}
+.et12{background-color:#00f7e0;}
+.et14{background-color:#00e696;}
+.et16{background-color:#00d13b;}
+.et18{background-color:#0dc400;}
+.et20{background-color:#4dd400;}
+.et22{background-color:#99e600;}
+.et24{background-color:#d6f500;}
+.et26{background-color:#ffde00;}
+.et28{background-color:#ffb300;}
+.et30{background-color:#ff8000;}
+.et32{background-color:#ff4000;}
+.et34{background-color:#ff0000;}
+.et36{background-color:#b02e5e;}
+.et38{background-color:#cf1f8f;}
+.et40{background-color:#ff00ff;}
+
+
+.et-2,.et0,.et2,.et4,.et6,.et8,.et10,.et12,.et14,.et16,.et18,.et20,
+.et22,.et24,.et26,.et28,.et30,.et32,.et34,.et36,.et38,.et40{
+	width:38px;
+	height: 12px;
+	display:block;
+	margin:1px 0 0 0;
+	float:left;
+}
+
+#area_botoes_mapas{
+	float: left;
+	width: 600px;
+	height: 100px;
+}
+
+#tsm_display_mapas{
+	float: left;
+	width: 560px;
+	height: 60px;
+	margin:20px;
+}
+
+.data_tsm{
+	float: left;
+	padding-bottom:12px;
+	font-size: 20px;
+	width: 580px;
+}
+
+
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.aviso_mova{
+	float:right;
+	color:#ddd;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+
+.envoltorio_scroll{	
+	position:absolute;
+	width: 516px;
+	height: 26px;
+	overflow: hidden;
+	margin: 0px;
+	background-color: rgb(10, 43, 85);
+	bottom: 0;
+	left: 42px;
+	border: 4px solid #000;
+}
+
+.dragger{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 200px;
+	height: 26px;
+	z-index: 2;
+	background-color: #ddd;
+	cursor:pointer;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.envoltorio_scroll_interno{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1042px;
+	height:1px;
+	z-index:2;
+}
+
+#scroll_espectro{
+	left: 0;
+}
+
+.d_dir,
+.d_esq{
+	float:left;
+	margin:2px;
+}
+
+.d_dir{float: right;}
+
+.mova{
+	text-align:center;
+	width:165px;
+	float:left;
+	color:#999;
+	line-height:25px;
+}
+
+#scroll_vento
+{
+	bottom: 10px;
+	left: 62px;
+}
+
+#scroll_mares
+{
+	bottom: 20px;
+	left: 0;
+}
+
+#scroll_mapas
+{
+	bottom: -35px;
+	left: 45px;
+}
+
+.box-previsao{
+	position: relative;
+}
+
+#txt_previsao_prolongada{
+	float: right;
+	width: 200px;
+	margin-top: 20px;
+}
+
+#aviso_tempo,
+#aviso_ondas,
+#aviso_vento,
+#aviso_mares,
+#aviso_espectral{
+	top: 0;
+	left: 850px;
+	width: 200px;
+	height: 225px;
+	font-size: 16px;
+}
+
+#aviso_espectral{
+	top:4px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+#aviso_mares{
+	height: 116px;
+}
+
+#aviso_tempo{
+	height: 180px;
+}
+
+.compre_pro{
+	position: absolute;
+	width:  520px;
+	height: 260px;
+	z-index: 20;
+	display: none;
+}
+
+#aba_mare_0,
+#aba_mare_1,
+#aba_grafico_total,
+#aba_unid_nos{
+	margin-left:6px;
+}
+
+#abas_mares, 
+#grafico_mares{
+	float: left;
+}
+
+#abas_mares{
+	width: 250px;
+}
+
+
+#aba_mare_0, #aba_mare_1,
+#aba_mare_2 {
+    margin:0;
+}
+
+
+.aviso_login{
+  position: absolute;
+  z-index: 1000;
+  bottom: 100px;
+  left: 550px;
+  width: 400px;
+  height: 44px;
+  padding: 8px 20px;
+  background: #fff;
+  border: 1px solid #036;
+}
+
+.aviso_login strong{
+	color:#fff;
+	font-family:sans-serif;
+}
+
+#conteudo-box0{
+	float:left;
+	width:100%;
+}
+
+#condicoes_pro{
+	float: right;
+}
+
+
+
+#escala_periodo2 .escala_numeros_black,
+#escala_periodo .escala_numeros_black {
+	margin-top:6px;
+}
+
+#conteudo-box10{
+	margin-bottom:0;
+}
+
+#siteBoia{
+	float:left;
+	display:none;
+	font-size:28px;
+}
+
+#menu_boias .abas_graficos{
+	float:left;
+}
+
+
+#box_tsm,
+#titulo_estacao{
+	position:relative;
+}
+
+#frame_banner2{
+	height:3300px;
+	width:300px;
+	float:right;
+}
+
+#redes-sociais{
+	float:left;
+	margin:0;
+}
+
+#redes-sociais li{
+	float: left;
+	list-style-type: none;
+	margin: 0 8px;
+}
+
+
+#escala_mapas{
+	float:left;
+	width:40px;
+	height: 260px;
+	position:relative;
+	margin-top:8px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+
+.escalas{
+	position: absolute;
+	width: 320px;
+	height: 260px;
+	top:0;
+	left: 0;
+}	
+
+.escala_topo{
+	float: right;
+	width: 200px; 
+	height: 18px;
+}
+
+.escala_topo label{
+	float: left; 
+	margin: 0 0 2px 20px; 
+	height: 18px;
+	color: #000;
+}
+
+.escala_topo .valor{
+	float: left;
+	width: 20px; 
+	height: 15px;
+	margin: 0 0 4px 4px;
+	padding: 0 0 4px 0;
+	font-size: 9px;
+	font-weight: normal;
+	font-family: "arial narrow";
+	line-height: 12px;
+	text-align:center;
+	color: #000;
+}
+
+.temperat{
+float: left;
+width: 12px;
+text-align: center;
+background-color: #8687ff;
+font-size: 10px;
+font-weight: normal;
+font-family: "arial narrow";
+color: #000;
+margin-right:1px;
+}	
+
+.temperatura_dia{
+position: absolute;
+bottom: -30px;
+width: 200px;
+height: 20px;
+}
+
+#escala_tempo_dir,
+#escala_tempo_esq{
+	position: absolute;
+	top: 47px;
+	width: 40px;
+	height: 180px;
+}
+
+#escala_tempo_esq{
+	left:1px;
+}
+
+#escala_tempo_dir{
+	right:3px;
+}
+
+#div_dias_mapas{
+	height: 50px;
+}
+
+
+#dataHoraMapa,#dataHoraMapaZoom{
+	position: absolute;
+	z-index: 100;
+	top: 230px;
+	left: 5px;
+	width: 55px;
+	height: 26px;
+	padding: 0;
+	margin: 0;
+}	
+
+.diaMapa,
+.semanaMapa,
+.horaMapa{
+	background-color: #fff;
+	color: #000;
+	font-size: 10px;
+	font-family: Verdana,Arial,Sans-seriff;
+	line-height: 14px;
+	font-weight: bold;
+	text-align: left;
+	width: 20px;
+	padding: 0;
+	margin: 0;
+	line-height: 12px;
+	float: left;
+	height: 14px;
+}
+
+.semanaMapa{
+	padding: 0 5px;
+	width: 25px;
+}
+
+
+.horaMapa{
+	background-color: #000;
+	color: #fff;
+	width: 43px;
+	height: 12px;
+	padding: 0 12px 0 0;
+	text-align: right;
+	font-size: 9px;
+}
+
+
+.label_astro,
+.label_lua,
+.rotulo_sumario_astro{
+	width: 95px;
+    text-align: left;
+    padding: 6px 3px;
+    height: 15px;
+    line-height: 11px;
+    font-size: 13px;
+    float: left;
+    border-right: 1px solid #999;
+}
+
+.label_lua{
+	border:none;
+	width: 60px;
+	padding: 0 3px;
+}
+
+.label_astro{
+	width: 31px;
+	height: 25px;
+    font-size: 10px;
+    padding: 4px 0;
+    font-family: sans-serif;
+}
+
+.img_lua,
+.icone_lua,
+.icone_astro{
+	width: 20px;
+	height: 25px;
+    float: left;
+    margin:0;
+    padding: 0;
+}
+
+.icone_lua{
+	width: 25px;
+	position: relative;
+	overflow: hidden;
+    margin: 2px;
+}
+
+.img_lua{
+	position: absolute;
+	top:0;
+	width: 100px;
+}
+
+
+.menor{
+	padding: 0 2px;font-size: 10px; line-height: 20px;
+}
+
+.escala_energia{
+	left: 7px;
+	width: auto;
+}
+
+#dados_energia{
+	height: 140px;
+	width: 230px;
+}
+
+#energia_display{
+	height: 310px;
+}
+
+#graficos_energia{
+	height: 240px;
+}
+
+#escala_energia3,
+#escala_energia{
+	bottom: 28px;
+}
+
+
+#escala_energia2{
+	bottom: 28px;
+	right: 0;
+}
+
+
+#marcadorTotalEnergia{
+	background-color: #fff;
+	border: 2px solid #fff;
+	left: -6px;
+}
+
+#marcadorVagasEnergia{
+	background-color: #9f9;
+}
+
+#marcadorSwsEnergia{
+	background-color: #f99;
+}
+
+#marcadorSwnEnergia{
+	background-color: #99f;
+}
+
+#aviso_energia{
+	bottom: 50px;
+    left: 850px;
+    width: 200px;
+    height: 180px;
+    font-size: 16px;
+}
+
+#letreiro_energia{
+	float: right;
+}
+
+.num_escala_energia,
+.num_escala_energia2{
+	line-height:11px;
+	left:6px;
+	z-index:5;
+	width:30px;
+	height:12px;
+	background-color:#fff;
+	display:block;
+	position:absolute;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-align:center;
+}
+
+.num_escala_energia2{
+	display: none;
+}
+
+
+.resumo_energia_coluna{
+	float: left;width: 105px;margin: 0;border-right: 2px solid #000;
+}
+.resumo_energia_dia{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #ddd;
+	color: #000;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	margin: 0;
+}
+
+.resumo_energia_pot,
+.resumo_energia_en{
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;
+	text-align: right;
+	width: 100px;
+	padding: 0 5px 0 0;
+	color: #00a;
+	margin: 0;
+}
+
+.resumo_energia_pot{
+	background-color: #eee;color: #a00;border-bottom:  1px solid #000;
+}
+
+#resumo-box11{
+	float: left;width: 620px;margin: 0 0 20px 20px;
+}
+
+.aviso_novo{
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0; 
+	padding: 10px 0;
+	text-align: center;
+	border:1px solid #000;
+	font-size: 26px;
+}
+
+#cabeca_energia{
+	float: left;width: 100%;
+}
+
+#muda-energia-potencia{
+	float: right;margin-right: 100px;
+}
+
+
+#entenda-vento,
+#entenda-energia{
+	left: 250px;
+	top: 40px;
+	position: absolute;
+    width: 230px;
+    height: 60px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 8px 12px;
+    font-size: 16px;
+    z-index: 100;
+    display: none;
+}
+
+#entenda-vento{
+    left: 260px;
+}
+
+#entenda-energia{
+    width:380px;
+}
+
+.resumo_energia_coluna{
+	float: left;width: 105px;margin: 0;border-right: 2px solid #000;
+}
+.resumo_energia_dia{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #ddd;
+	color: #000;
+	border-bottom: 1px solid #000;
+	margin: 0;
+}
+
+.resumo_energia_pot,
+.resumo_energia_en{
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;
+	text-align: right;
+	width: 100px;
+	padding: 0 5px 0 0;
+	color: #00a;
+	margin: 0;
+}
+
+.resumo_energia_pot{
+	background-color: #eee;color: #a00;border-bottom:  1px solid #000;
+}
+
+#resumo-box11{
+	float: left;width: 620px;margin: 0 0 20px 20px;
+}
+
+#titles_vento,
+#titles_altura{
+	height: 200px;
+}
+
+#aviso_cor_direcao_vento{
+	float: left;
+	height: 25px;
+	margin: -10px 0 30px 60px;
+	text-align: center;
+	width: 480px;
+}
+
+.cor_direcao_vento{
+	color: #fff;
+	float: left;
+	padding: 0;
+	width: 20%;
+	margin: 0;
+	font-size: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+
+
+#label_icone_mais{
+	font-size: 32px;
+}
+
+.label_icone{
+	margin:2px 6px 0 0;
+	float: left;
+}
+
+.label_texto{
+	float: left;
+	margin: 2px 0 0 0;
+}
+
+#barra-atividades{
+	height: 44px;
+}
+
+.seletor_atividade {
+    float: left;
+    padding: 0;
+    height: 40px;
+    width: 135px;
+    margin: 7px 0 0 14px;
+}
+
+#esporte_relatorio,
+#praia_relatorio{
+	width: 180px;
+	height: 40px;
+}
+
+#uniform-esporte_relatorio {
+    margin: 0 0 0 4px;
+}
+
+#uniform-praia_relatorio{
+	margin: 0 32px 0 0;
+}
+
+#vento_relatorio,
+#equipamento_relatorio,
+#altura_relatorio,
+#qualidade_relatorio,
+#dia_relatorio,
+#hora_relatorio{
+	width: 180px;
+	height: 40px;
+}
+
+#vento_relatorio table{
+    margin: 0 0 0 20px;
+}
+
+#vento_relatorio tr{
+    height: 30px;
+}
+
+.larg30px{
+    width: 30px;
+}
+
+#dia_relatorio{
+	margin: 4px 0 0 0;
+    height: 26px;
+    font-size: 20px;
+}
+
+#botao_enviar_relatorio{
+	line-height: 35px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#comentarios_relatorio {
+    overflow: auto;
+	width: 585px;
+    height: 50px;
+    margin: 6px 0 0 0;    
+    border: 1px solid #666;
+}
+
+.divisor{
+	margin: 8px 0 0 0;
+    padding: 0;
+    width: 95%;
+    background-color: #999;
+    float: left;
+}
+
+#avisos_atividades,
+#minhas_atividades,
+#meus_equipamentos,
+#nova_atividade{
+	float: left;
+    width: 630px;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#avisos_atividades{
+	height: 20px;
+    font-size: 20px;
+}
+
+#uniform-publica_relatorio{
+	float: left;
+	width: 20px;
+}
+
+#tornar_visivel{
+	float: left;
+	width: 80%;
+	margin: 2px 0 0 12px;
+	cursor: default;
+}
+
+
+#publica{
+	width:100%;
+	float:left;
+	margin:12px 0 20px 0;
+}
+
+#publica_relatorio{
+	margin: 0 0 15px 0;
+}
+
+.titulo_atividades{
+	width: 95%;
+	margin: 0 0 8px 0;
+	text-align: center;
+	color: #036;
+	padding: 0 0 4px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #999;
+}
+
+#fecha_atividades{
+	float: right;
+	margin: 4px;
+	cursor: pointer;
+	display: none;
+}
+
+#label_organize{
+	color: #036;
+	font-size: 18px;
+	width: 620px;
+	height: 20px;
+	overflow: hidden;
+	cursor: default;
+	float: left;
+}
+
+#div_recentes{
+	width: 620px;
+	height: 320px;
+	overflow: hidden;
+}
+
+#estrelas_atividade{
+	float: right;
+    width: 130px;
+    height: 20px;
+    padding: 0;
+    margin: 8px 8px 0 0;
+}
+
+.acesap,
+.apagadap,
+.acesa,
+.apagada{
+	font-size: 25px;
+	float: left;
+	color: #bbb;
+	margin: 0 2px;
+}
+
+#estrelas_atividade a.acesa:focus,
+#estrelas_atividade a.apagada:focus,
+#estrelas_atividade a.acesa:hover,
+#estrelas_atividade a.apagada:hover{
+	text-decoration: none;
+	border: 0;
+}
+
+.acesap,
+.acesa{
+	color: #c90;
+}
+
+.acesap,
+.apagadap{
+	font-size: 20px;
+}
+
+#nota_atividade{
+	float: left;
+	cursor: default;
+	color: #036;
+	margin: 12px 0 0 0;
+	font-size: 20px;
+}
+
+
+.nota_atividade{
+	float: left;
+	cursor: default;
+	color: #036;
+	width: 135px;
+	text-align: center;
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #369;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+
+#seletor_vento,
+#seletor_altura{
+	float: left;
+	height: 200px;
+}
+
+#seletor_vento{
+	width: 115px;
+	border-left: 1px solid #999;
+	padding: 0 0 0 12px;
+	margin: 0 0 0 12px;
+}
+
+#seletor_altura{
+	width: 175px;
+	border-right: 1px solid #999;
+	padding: 0 12px 0 0;
+	margin: 0 12px 0 0;
+}
+
+
+#vento_ranger,
+#altura_ranger{
+	float: left;
+    width: 50px;
+    height: 200px;
+    position: relative;
+}
+
+#vento_ranger label,
+#altura_ranger label{
+	color: #000;
+}
+
+#vento_ranger label{
+	width: 60px;
+	text-align: right;
+}
+
+.label_altura{
+	float: left;
+	width: 120px;
+	height: 100px;
+}
+
+#vento_atividade,
+#altura_atividade{
+	float: left;
+	width: 120px;
+	height: 60px;
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	margin: 20px 0 8px 0;
+}
+
+#vento_atividade{
+	height: 40px;
+}
+
+#texto_nota,
+#texto_altura{
+	float: left;
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+    border: 1px solid #999;
+    padding: 8px 0;
+}
+
+#texto_nota{
+    margin: 20px 0 0 10px;
+	height: 30px;
+	width: 100px;
+}
+
+#range_relatorio{
+	transform: rotate(270deg);
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 10px;
+    top: 95px;
+    left: -70px;
+    position: absolute;
+    background-color: #999;
+}
+
+#range_vento{
+	transform: rotate(270deg);
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    height: 10px;
+    top: 85px;
+    left: -10px;
+    position: absolute;
+    background-color: #999;
+}
+
+
+#botao_atividades:visited,
+#botao_atividades{
+	text-decoration: none;
+    display: block;
+    width: auto;
+    color: #fff;
+    background-color: #036;
+    float: left;
+    height: 30px;
+    line-height: 27px;
+    margin: 0 8px;
+    padding: 0 12px;
+}
+
+
+#botao_atividades:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #147;
+}
+
+#link_tabela_mares{
+	color: #036;
+	font-size: 18px;
+	margin: 10px 0 0 0;
+}
+
+
+#mapa_zoom,#espectro_praia{
+	margin-top: 0;
+}
+
+
+#espectro_praia{
+	margin-left: 6px;
+}
+
+
+#escala_horizontal_energia {
+	display: none;
+}
+
+
+#escala_horizontal_energia,
+#escala_horizontal_potencia {
+	height: 50px;
+	text-align: left;
+}
+
+#escala_horizontal_energia b,
+#escala_horizontal_potencia b{
+	margin: 0 0 0 70px;
+}
+			
+			
+.letreiro_lateral_direito{
+	float: right;
+    width: 340px;
+    color: #036;
+    font-size: 16px;
+    margin: 4px 30px 0 0;
+}
+
+.letreiro_lateral_direito a{
+    color: #036;
+}
+
+#botoes_tipo_vento a,
+#botoes_energia_potencia a,
+#botoes_tipo_mares a{
+	padding: 10px;
+}
+
+#botoes_energia_potencia{
+    width:210px;
+}
+
+#botoes_tipo_vento label{
+	color: #0a2b55;
+    position: absolute;
+    width: 250px;
+	left: 300px;
+    top: 55px;
+}
+
+
+.quadrado_dia,
+.quadrado_dia_selecionado{
+	display: block;
+}
+
+#conteudo-box1{
+	height: 430px;
+}
+
+#mapa_esq{
+	float:left;width: 325px;
+}
+
+#mapa_dir{
+	float:right;width: 283px;
+}
+
+
+#imagem_mapa_surfguru_regiao_pressao_dia_anterior,
+#imagem_mapa_surfguru_regiao_pressao_dia,
+#imagem_mapa_surfguru_pais_pressao_dia_anterior,
+#imagem_mapa_surfguru_pais_pressao_dia,
+#imagem_mapa_surfguru_regiao_atmos_dia_anterior,
+#imagem_mapa_surfguru_regiao_atmos_dia,
+#imagem_mapa_surfguru_pais_atmos_dia_anterior,
+#imagem_mapa_surfguru_pais_atmos_dia{
+	float: left;
+	position: unset;
+	height: 1040px;
+	width: 520px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#imagem_mapa_surfguru_regiao,
+#imagem_mapa_surfguru_pais,
+#imagem_mapa_surfguru_pais_lr,
+#imagem_mapa_surfguru_regiao_lr{
+	float: left;
+	position: unset;
+	height: 1040px;
+	width: 4160px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+#imagem_mapa_surfguru_regiao_pressao,
+#imagem_mapa_surfguru_regiao_atmos,
+#imagem_mapa_surfguru_pais_atmos,
+#imagem_mapa_surfguru_pais_pressao{
+	float: left;
+	position: unset;
+	height: 1040px;
+	width: 3640px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#imagem_mapa_surfguru_pais_pressao_lr,
+#imagem_mapa_surfguru_regiao_pressao_lr,
+#imagem_mapa_surfguru_pais_pressao_lr,
+#imagem_mapa_surfguru_pais_atmos_lr{
+	float: left;
+	position: unset;
+	height: 1040px;
+	width: 4160px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+#mapas_oceano_regiao,
+#mapas_oceano_pais{
+	position: absolute;
+	width: 8320px;
+	height: 1040px;
+}
+
+#mapas_oceano_pais{
+	width: 9000px;
+}
+
+#mapas_pressao_pais,
+#mapas_pressao_regiao,
+#mapas_atmos_pais,
+#mapas_atmos_regiao{
+	position: absolute;
+	width: 8320px;
+	height: 1040px;
+}
+
+#mapas_pressao_pais,
+#mapas_pressao_regiao{
+	top: -780px;
+	z-index: 10;
+}
+
+
+#mapas_pressao_pais, #mapas_pressao_regiao, #mapas_atmos_pais, #mapas_atmos_regiao{
+	width: 8840px;
+}
+
+
+
+#imagem_mapa_surfguru_oceano,
+#imagem_mapa_surfguru_oceano_lr{
+	float: left;
+	position: unset;
+	height: 1040px;
+	width: 4680px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}	
+
+#imagem_mapa_surfguru_oceano_lr{
+	width: 4160px;
+}
+
+
+
+#novidades_display{
+	width: 95%;
+}
+
+#novidades_display ul{
+    font-size: 18px;
+    float: left;
+    color: #0a2b55;
+}
+
+#novidades_display label{
+    color: #fdbe00;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8px;
+    float: left;
+}
+
+
+#botao_novidades:visited,
+#botao_novidades{
+	text-decoration: none;
+	display: block;
+	width: 65px;
+	color: #fff;
+	background-color: #036;
+	float: right;
+	height: 30px;
+	line-height: 27px;
+	margin: 8px;
+	padding: 0 12px;
+	font-weight: normal;
+}
+
+
+#botao_novidades:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #147;
+}
+
+
+
+
+
+.linha_cam{
+	float: left;
+	width: 600px;
+	height: 175px;
+	padding: 8px 0;
+}
+
+.img_cam_surfguru{
+	float: left;
+	overflow: hidden;
+	width: 288px;
+	height: 125px;
+	width: 100%;
+	text-align: center;
+}
+
+.label_cam_surfguru{
+	float: left;
+	font-size: 15px;
+	width: 100%;
+	text-align: center;
+	margin: 4px 0 0 0;
+	color: #036;
+}
+
+.camera_container{
+	width: 288px;
+	height: 185px;
+	float: left;
+	margin: 0 6px;
+	padding: 0;
+}
+
+#titulo_topo{
+    padding:0 10px;
+}
+
+#botao_pressao{
+    width:280px;margin: 0;
+}
+
+#menu_espectro{
+    width: 160px;
+}
+
+.margemEsq12px{
+    margin: 0 0 0 12px;
+}
+
+.escondido{
+    display:none;
+}
+
+.dir300px{right: 300px;}
+
+.larg300px{
+    width: 300px;
+}
+
+#titulo_dir{
+    width:290px;height: 20px;margin: 4px 0;
+}
+
+.sem-borda{
+    border: 0;
+}
+
+#coren18,
+#corpot18{
+    font-family: 'Arial narrow';color: #000;
+}
+
+#head_tabela_energia{
+    width: 62px;height: 62px;
+}
+
+.larg56px{
+    width: 56px;
+}
+
+.larg280px{
+    width: 280px;
+}
+
+.larg180px{
+    width: 180px;
+}
+
+.margemTop10px{
+    margin: 10px 0 0 0;
+}
+
+.preto{color:#000;}
+
+.vento-fraco{background-color: #88d;}
+
+.vento-terral{background-color: #090;}
+
+.vento-cruzado{background-color: #e83;}
+
+.vento-maral{background-color: #900;}
+
+#conteudo-box15{height:270px;}
+
+.larg550px{ width: 550px; }
+
+.larg370px{width: 370px;}
+
+.float-left{float: left;}
+
+.larg100pc{width: 100%;}
+
+#titulo-report{font-size: 18px;padding: 0 10px;}
+
+.height25px{height: 25px;}
+
+.margem0{margin: 0;}
+
+
+h1{
+	font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    color: #fff;
+    height: 30px;
+    width: 870px;
+    overflow: hidden;
+    font-weight: normal;
+    float: left;
+}
+
+h2{
+	font-size: 16px;
+    padding: 10px 20px;
+	margin: 0;
+	width: 88%;
+    color: #000;
+    font-weight: normal;
+	line-height: 25px;
+}
+
+.box-header{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.casa-descricao{
+	position: relative;
+    height: 40px;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+}
+
+.descricao{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.botao-mudar{
+	background: #ff9a00;
+    color: #0a2b55;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 4px 8px 0 0;
+}
+
+.botao-leia-mais{
+	position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 81px;
+    height: 25px;
+    background: #205959;
+    color: #fff;
+    padding: 0;
+    font-size: 16px;
+}
+
+.margem_4px_0{ margin: 4px 0; }
+
+.margem_4px_00_10px{ margin: 4px 0 0 10px; }
+
