@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+	<link rel="stylesheet" type="text/css" href="main.1.11.css" />
+	<link rel="stylesheet" type="text/css" href="previsao.1.2.css" />
+	<link rel="stylesheet" type="text/css" href="frame-previsao.1.1.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Jockey+One" />
+
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="jquery.cycle.all.min.js"></script>
+	<script type="text/javascript" src="https://surfguru.com.br/js/Elements/aside.1.6.js"></script>
+
+<script type="text/javascript">
+
+
+$(function() {
+
+	var d = new Date();
+	$.getJSON('/usuarios/dados/' + parseInt(d.getTime()/1000) , function(data) {
+
+		if(data.dados.usuarioStatus==1){
+			googletag.pubads().setTargeting('pro', '1');
+			$('#clever_ad').remove();
+		}
+
+    	googletag.pubads().refresh();
+		
+	});
+
+});  
+
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'https:') + 
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+})();
+
+
+
+googletag.cmd.push(function() {
+	//topo - 1484156067747
+	googletag.defineSlot('/12755878/quadradao', [300, 250], 'quadradao').addService(googletag.pubads()).setTargeting("bannerID", "topoQuadradao");
+
+	//base - 1482266212257
+	googletag.defineSlot('/12755878/quadradao_previsao', [300, 250], 'quadradao_previsao').addService(googletag.pubads()).setTargeting("bannerID", "baseQuadradao");
+
+	//vertical - 1484097295056
+	googletag.defineSlot('/12755878/vertical', [300, 600], 'vertical').addService(googletag.pubads());
+
+	googletag.pubads().enableLazyLoad({
+		fetchMarginPercent: 25,
+		renderMarginPercent: 10,
+		mobileScaling: 2.0
+	});
+
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().collapseEmptyDivs();
+
+	//aguarda por um comando para carregar os anuncios
+	googletag.pubads().disableInitialLoad();
+
+	googletag.enableServices();
+
+});
+
+var localizacao = 'brasil/rio-grande-do-norte/natal';
+
+var modulo_surfmappers=false;
+var diaHoje = 13;
+var mesHoje = 3;
+var anoHoje = 2024;
+
+</script>
+
+
+</head>
+<body>
+
+	<!-- /12755878/quadradao do topo -->
+	<div class="anuncio-lateral banner300px" id='quadradao'>
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('quadradao'); 
+				});
+		</script>
+	</div>
+
+	
+	<div class="sessao sessao-slider linha clearfix"><!-- INICIO CHAMADA VIDEOS -->
+		<h2 class="titulo azul2"><span class="texto">Vídeos</span>  <span class="ver-mais">|
+			<a href="https://surfguru.com.br/categoria/comunidade/fotos-e-videos/" target="_top">Mais Vídeos</a>		</span></h2>
+		<ul id="slide-tv" class="lista-slider">
+						<li>
+				<a href="https://surfguru.com.br/conteudo/4ª-remada-volta-ilha-de-imbituba-acontece-em-marco-2024-02-29-28819.html" class="box-slider box-link" title="4ª Remada Volta Ilha de Imbituba acontece em março" target="_top">
+					<img src="https://surfguru.space/2024/02/240229035009000000.jpg" alt="" />					<h3 class="titulo-lista">4ª Remada Volta Ilha de Imbituba acontece em março</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/the-girls-surf-2024-02-02-28792.html" class="box-slider box-link" title="The Girls Surf" target="_top">
+					<img src="240202055212000000.png" alt="" />					<h3 class="titulo-lista">The Girls Surf</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/brasileiros-ocupam-posicoes-de-destaque-no-ranking-geral-do-semillero-olas-pro-tour-2024-2024-02-02-28791.html" class="box-slider box-link" title="Brasileiros ocupam posições de destaque no ranking geral do Semillero Olas Pro Tour 2024" target="_top">
+					<img src="https://surfguru.space/2024/02/240202051518000000.jpg" alt="" />					<h3 class="titulo-lista">Brasileiros ocupam posições de destaque no ranking geral do Semillero Olas Pro Tour 2024</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surfista-lanca-o-curta-metragem-“eu-e-ela”-2024-01-16-28764.html" class="box-slider box-link" title="Surfista lança o curta-metragem “Eu e Ela”" target="_top">
+					<img src="240116074409000000.png" alt="" />					<h3 class="titulo-lista">Surfista lança o curta-metragem “Eu e Ela”</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/ondas-epicas-clima-frio-e-aventura-solitaria-2024-01-15-28760.html" class="box-slider box-link" title="Ondas  Épicas, Clima Frio e Aventura Solitária" target="_top">
+					<img src="https://surfguru.space/2024/01/240115075018000000.jpg" alt="" />					<h3 class="titulo-lista">Ondas  Épicas, Clima Frio e Aventura Solitária</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/lucas-chumbo-ondas-e-um-coracao-gigantes-2024-01-11-28752.html" class="box-slider box-link" title="LUCAS CHUMBO - ONDAS E UM CORAÇÃO GIGANTES" target="_top">
+					<img src="https://surfguru.space/2019/04/190430062157000000.jpg" alt="" />					<h3 class="titulo-lista">LUCAS CHUMBO - ONDAS E UM CORAÇÃO GIGANTES</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surftrip-perfeita-no-sul-do-mexico-2023-12-12-28719.html" class="box-slider box-link" title="Surftrip perfeita no Sul do México" target="_top">
+					<img src="https://surfguru.space/2023/12/231215072654000000.jpg" alt="" />					<h3 class="titulo-lista">Surftrip perfeita no Sul do México</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surf-em-matinhos-joao-lucas-bessy-2023-12-12-28718.html" class="box-slider box-link" title="SURF EM MATINHOS - JOÃO LUCAS BESSY" target="_top">
+					<img src="https://surfguru.space/2023/12/231215080021000000.jpg" alt="" />					<h3 class="titulo-lista">SURF EM MATINHOS - JOÃO LUCAS BESSY</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/um-dia-em-sao-conrado-2023-11-27-28685.html" class="box-slider box-link" title="Um dia em São Conrado" target="_top">
+					<img src="https://surfguru.space/2023/11/231127011154000000.jpg" alt="" />					<h3 class="titulo-lista">Um dia em São Conrado</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/maresias-tubular-em-slow-motion-2023-10-26-28628.html" class="box-slider box-link" title="Maresias tubular em Slow Motion" target="_top">
+					<img src="231026030640000000.png" alt="" />					<h3 class="titulo-lista">Maresias tubular em Slow Motion</h3>
+				</a>
+			</li> 
+					</ul>
+
+		<div class="botoes-slider">
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=260577&amp;pid=0.html#" title="Próximo"><span id="prev-tv" class="btn-anterior">Próximo</span></a> 
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=260577&amp;pid=0.html#" title="Anterior"><span id="next-tv" class="btn-proximo">Anterior</span></a>
+		</div>
+
+		<div class="paginacao-slider">
+			<ul id="nav-slider-tv"></ul>		
+		</div>
+
+	</div><!-- FIM CHAMADA VIDEOS -->
+
+
+
+	<!-- /banner PRO -->
+	<div class="anuncio-lateral banner300px" id="banner-pro">
+		<a href="https://surfguru.com.br/assine" title="Assine o Surfguru PRO" target="_top"><img src="banner_fixo_-_lateral.gif" /></a>
+	</div>
+
+
+	
+	<ul class="barra-noticias width300px">
+
+		<h2 class="titulo"><span class="texto">Matérias</span></h2>	
+
+				
+				<li><a href="https://surfguru.com.br/conteudo/tatiana-weston-webb-avanca-para-as-semifinais-do-meo-rip-curl-pro-portugal-2024-03-12-28868.html" target="_top">Tatiana Weston-Webb avança para as semifinais do MEO Rip Curl Pro Portugal</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/gabriel-medina-brilha-e-selecao-brasileira-tem-tres-surfistas-nas-quartas-de-final-do-ct-de-portugal-2024-03-12-28867.html" target="_top">Gabriel Medina brilha e seleção brasileira tem três surfistas nas quartas do CT </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/maior-evento-feminino-de-longboard-do-mundo-reune-mulheres-de-todo-o-pais-america-latina-e-europa-2024-03-12-28866.html" target="_top">Maior evento feminino de Longboard reúne mulheres de todo o Mundo</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/aguas-de-gaia-abre-inscricoes-para-vivencias-gratuitas-de-surf-para-mulheres-2024-03-12-28865.html" target="_top">Águas de Gaia abre inscrições para vivências gratuitas de surf para mulheres</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/contagem-regressiva-para-a-abertura-do-calendario-da-cbsurf-2024-2024-03-11-28864.html" target="_top">Contagem regressiva para a abertura do Calendário da CBSurf 2024</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/taina-hinckel-e-lucas-silveira-sao-os-novos-campeoes-do-layback-pro-2024-03-11-28863.html" target="_top">Tainá Hinckel e Lucas Silveira são os novos campeões do Layback Pro </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/ticole-busca-patrocinio-para-impulsionar-sua-carreira-no-surf-profissional-2024-03-11-28862.html" target="_top">Ticolé busca patrocínio para impulsionar sua carreira no surf profissional</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/carreira-profissional-surfista-kalani-robles-se-prepara-para-novos-ares-2024-03-11-28861.html" target="_top">Carreira profissional: surfista Kalani Robles se prepara para novos ares</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/entre-os-pro-tiago-silva-vence-a-etapa-de-abertura-do-pernambucano-2024-03-11-28860.html" target="_top">Entre os PRO, Tiago Silva vence a etapa de abertura do Pernambucano</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/semasa-apresenta-o-super-grommets-2024-03-08-28859.html" target="_top">SEMASA APRESENTA O SUPER GROMMETS</a></li>
+				
+		
+	</ul>
+
+	<div class="linha clearfix linha-frame-lateral"></div>
+
+
+		
+
+
+
+	<!-- /12755878/quadradao base  -->
+	<div class="anuncio-lateral banner300px" id='quadradao_previsao'>
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('quadradao_previsao'); 
+				});
+		</script>
+	</div>
+
+
+	<div class="linha clearfix linha-frame-lateral"></div>
+
+
+	
+	<div class="sessao sessao-slider linha clearfix"><!-- INICIO CHAMADA GALERIA -->
+		<h2 class="titulo azul2"><span class="texto">Galerias</span>  <span class="ver-mais">|
+			<a href="https://surfguru.com.br/galerias/" target="_top">Mais Galerias</a>		</span></h2>
+		<ul id="slide-galerias" class="lista-slider">
+						<li>
+				<a href="https://surfguru.com.br/conteudo/tatiana-weston-webb-avanca-para-as-semifinais-do-meo-rip-curl-pro-portugal-2024-03-12-28868.html" class="box-slider" title="Tatiana Weston-Webb avança para as semifinais do MEO Rip Curl Pro Portugal" target="_top">
+							<img src="https://surfguru.space/2024/03/240312111313000000.jpg" alt="Tatiana Weston-Webb fez os recordes da terça-feira em Supertubos " />					<h3 class="titulo-lista">Tatiana Weston-Webb avança para as semifinais do MEO Rip Curl Pro Portugal</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/gabriel-medina-brilha-e-selecao-brasileira-tem-tres-surfistas-nas-quartas-de-final-do-ct-de-portugal-2024-03-12-28867.html" class="box-slider" title="Gabriel Medina brilha e seleção brasileira tem três surfistas nas quartas do CT " target="_top">
+							<img src="https://surfguru.space/2024/03/240312113106000000.jpg" alt="Gabriel Medina usou os aéreos para vencer as duas baterias na segunda-feira" />					<h3 class="titulo-lista">Gabriel Medina brilha e seleção brasileira tem três surfistas nas quartas do CT </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/maior-evento-feminino-de-longboard-do-mundo-reune-mulheres-de-todo-o-pais-america-latina-e-europa-2024-03-12-28866.html" class="box-slider" title="Maior evento feminino de Longboard reúne mulheres de todo o Mundo" target="_top">
+							<img src="https://surfguru.space/2024/03/240312101655000000.jpg" alt="Surfistas amadoras e profissionais participaram do evento" />					<h3 class="titulo-lista">Maior evento feminino de Longboard reúne mulheres de todo o Mundo</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/aguas-de-gaia-abre-inscricoes-para-vivencias-gratuitas-de-surf-para-mulheres-2024-03-12-28865.html" class="box-slider" title="Águas de Gaia abre inscrições para vivências gratuitas de surf para mulheres" target="_top">
+							<img src="https://surfguru.space/2024/03/240312102748000000.jpg" alt="Projeto Águas de Gaia na Praia de Guarapari, no Espirito Santo" />					<h3 class="titulo-lista">Águas de Gaia abre inscrições para vivências gratuitas de surf para mulheres</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/contagem-regressiva-para-a-abertura-do-calendario-da-cbsurf-2024-2024-03-11-28864.html" class="box-slider" title="Contagem regressiva para a abertura do Calendário da CBSurf 2024" target="_top">
+							<img src="https://surfguru.space/2024/03/240311032659000000.jpg" alt="Divulgação (17)" />					<h3 class="titulo-lista">Contagem regressiva para a abertura do Calendário da CBSurf 2024</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/taina-hinckel-e-lucas-silveira-sao-os-novos-campeoes-do-layback-pro-2024-03-11-28863.html" class="box-slider" title="Tainá Hinckel e Lucas Silveira são os novos campeões do Layback Pro " target="_top">
+							<img src="240311034718000000.png" alt="LucasSilveira_TainaHinckelLayBackPro" />					<h3 class="titulo-lista">Tainá Hinckel e Lucas Silveira são os novos campeões do Layback Pro </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/ticole-busca-patrocinio-para-impulsionar-sua-carreira-no-surf-profissional-2024-03-11-28862.html" class="box-slider" title="Ticolé busca patrocínio para impulsionar sua carreira no surf profissional" target="_top">
+							<img src="https://surfguru.space/2024/03/240311033810000000.jpg" alt="Ticolé foto divulgação (1)" />					<h3 class="titulo-lista">Ticolé busca patrocínio para impulsionar sua carreira no surf profissional</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/carreira-profissional-surfista-kalani-robles-se-prepara-para-novos-ares-2024-03-11-28861.html" class="box-slider" title="Carreira profissional: surfista Kalani Robles se prepara para novos ares" target="_top">
+							<img src="https://surfguru.space/2024/03/240311032404000000.jpg" alt="Kalani Robles" />					<h3 class="titulo-lista">Carreira profissional: surfista Kalani Robles se prepara para novos ares</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/entre-os-pro-tiago-silva-vence-a-etapa-de-abertura-do-pernambucano-2024-03-11-28860.html" class="box-slider" title="Entre os PRO, Tiago Silva vence a etapa de abertura do Pernambucano" target="_top">
+							<img src="https://surfguru.space/2024/03/240311023548000000.jpg" alt="Tiaguinho carregado até o lugar mais alto do pódio. " />					<h3 class="titulo-lista">Entre os PRO, Tiago Silva vence a etapa de abertura do Pernambucano</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/semasa-apresenta-o-super-grommets-2024-03-08-28859.html" class="box-slider" title="SEMASA APRESENTA O SUPER GROMMETS" target="_top">
+							<img src="https://surfguru.space/2024/03/240308052710000000.jpg" alt="divulgação (16)" />					<h3 class="titulo-lista">SEMASA APRESENTA O SUPER GROMMETS</h3>
+				</a>
+			</li>
+					</ul>
+		<div class="botoes-slider">
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=260577&amp;pid=0.html#" title="Próximo"><span id="prev-galerias" class="btn-anterior">Próximo</span></a> 
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=260577&amp;pid=0.html#" title="Anterior"><span id="next-galerias" class="btn-proximo">Anterior</span></a>
+		</div>
+
+		<div class="paginacao-slider">
+			<ul id="nav-slider-galerias"></ul>		
+		</div>
+	</div><!-- FIM CHAMADA GALERIA -->
+
+
+
+	<!-- /12755878/retangular vertical -->
+	<div class="anuncio-lateral banner300px" id="vertical">
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('vertical'); 
+				});
+		</script>
+	</div>	
+
+
+</body>
