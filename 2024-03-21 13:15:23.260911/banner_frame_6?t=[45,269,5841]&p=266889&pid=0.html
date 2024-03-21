@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+	<link rel="stylesheet" type="text/css" href="main.1.11.css" />
+	<link rel="stylesheet" type="text/css" href="previsao.1.2.css" />
+	<link rel="stylesheet" type="text/css" href="frame-previsao.1.1.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Jockey+One" />
+
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="jquery.cycle.all.min.js"></script>
+	<script type="text/javascript" src="https://surfguru.com.br/js/Elements/aside.1.6.js"></script>
+
+<script type="text/javascript">
+
+
+$(function() {
+
+	var d = new Date();
+	$.getJSON('/usuarios/dados/' + parseInt(d.getTime()/1000) , function(data) {
+
+		if(data.dados.usuarioStatus==1){
+			googletag.pubads().setTargeting('pro', '1');
+			$('#clever_ad').remove();
+		}
+
+    	googletag.pubads().refresh();
+		
+	});
+
+});  
+
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'https:') + 
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+})();
+
+
+
+googletag.cmd.push(function() {
+	//topo - 1484156067747
+	googletag.defineSlot('/12755878/quadradao', [300, 250], 'quadradao').addService(googletag.pubads()).setTargeting("bannerID", "topoQuadradao");
+
+	//base - 1482266212257
+	googletag.defineSlot('/12755878/quadradao_previsao', [300, 250], 'quadradao_previsao').addService(googletag.pubads()).setTargeting("bannerID", "baseQuadradao");
+
+	//vertical - 1484097295056
+	googletag.defineSlot('/12755878/vertical', [300, 600], 'vertical').addService(googletag.pubads());
+
+	googletag.pubads().enableLazyLoad({
+		fetchMarginPercent: 25,
+		renderMarginPercent: 10,
+		mobileScaling: 2.0
+	});
+
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().collapseEmptyDivs();
+
+	//aguarda por um comando para carregar os anuncios
+	googletag.pubads().disableInitialLoad();
+
+	googletag.enableServices();
+
+});
+
+var localizacao = 'brasil/rio-grande-do-norte/natal';
+
+var modulo_surfmappers=false;
+var diaHoje = 21;
+var mesHoje = 3;
+var anoHoje = 2024;
+
+</script>
+
+
+</head>
+<body>
+
+	<!-- /12755878/quadradao do topo -->
+	<div class="anuncio-lateral banner300px" id='quadradao'>
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('quadradao'); 
+				});
+		</script>
+	</div>
+
+	
+	<div class="sessao sessao-slider linha clearfix"><!-- INICIO CHAMADA VIDEOS -->
+		<h2 class="titulo azul2"><span class="texto">Vídeos</span>  <span class="ver-mais">|
+			<a href="https://surfguru.com.br/categoria/comunidade/fotos-e-videos/" target="_top">Mais Vídeos</a>		</span></h2>
+		<ul id="slide-tv" class="lista-slider">
+						<li>
+				<a href="https://surfguru.com.br/conteudo/4ª-remada-volta-ilha-de-imbituba-acontece-em-marco-2024-02-29-28819.html" class="box-slider box-link" title="4ª Remada Volta Ilha de Imbituba acontece em março" target="_top">
+					<img src="https://surfguru.space/2024/02/240229035009000000.jpg" alt="" />					<h3 class="titulo-lista">4ª Remada Volta Ilha de Imbituba acontece em março</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/the-girls-surf-2024-02-02-28792.html" class="box-slider box-link" title="The Girls Surf" target="_top">
+					<img src="240202055212000000.png" alt="" />					<h3 class="titulo-lista">The Girls Surf</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/brasileiros-ocupam-posicoes-de-destaque-no-ranking-geral-do-semillero-olas-pro-tour-2024-2024-02-02-28791.html" class="box-slider box-link" title="Brasileiros ocupam posições de destaque no ranking geral do Semillero Olas Pro Tour 2024" target="_top">
+					<img src="https://surfguru.space/2024/02/240202051518000000.jpg" alt="" />					<h3 class="titulo-lista">Brasileiros ocupam posições de destaque no ranking geral do Semillero Olas Pro Tour 2024</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surfista-lanca-o-curta-metragem-“eu-e-ela”-2024-01-16-28764.html" class="box-slider box-link" title="Surfista lança o curta-metragem “Eu e Ela”" target="_top">
+					<img src="240116074409000000.png" alt="" />					<h3 class="titulo-lista">Surfista lança o curta-metragem “Eu e Ela”</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/ondas-epicas-clima-frio-e-aventura-solitaria-2024-01-15-28760.html" class="box-slider box-link" title="Ondas  Épicas, Clima Frio e Aventura Solitária" target="_top">
+					<img src="https://surfguru.space/2024/01/240115075018000000.jpg" alt="" />					<h3 class="titulo-lista">Ondas  Épicas, Clima Frio e Aventura Solitária</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/lucas-chumbo-ondas-e-um-coracao-gigantes-2024-01-11-28752.html" class="box-slider box-link" title="LUCAS CHUMBO - ONDAS E UM CORAÇÃO GIGANTES" target="_top">
+					<img src="https://surfguru.space/2019/04/190430062157000000.jpg" alt="" />					<h3 class="titulo-lista">LUCAS CHUMBO - ONDAS E UM CORAÇÃO GIGANTES</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surftrip-perfeita-no-sul-do-mexico-2023-12-12-28719.html" class="box-slider box-link" title="Surftrip perfeita no Sul do México" target="_top">
+					<img src="https://surfguru.space/2023/12/231215072654000000.jpg" alt="" />					<h3 class="titulo-lista">Surftrip perfeita no Sul do México</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surf-em-matinhos-joao-lucas-bessy-2023-12-12-28718.html" class="box-slider box-link" title="SURF EM MATINHOS - JOÃO LUCAS BESSY" target="_top">
+					<img src="https://surfguru.space/2023/12/231215080021000000.jpg" alt="" />					<h3 class="titulo-lista">SURF EM MATINHOS - JOÃO LUCAS BESSY</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/um-dia-em-sao-conrado-2023-11-27-28685.html" class="box-slider box-link" title="Um dia em São Conrado" target="_top">
+					<img src="https://surfguru.space/2023/11/231127011154000000.jpg" alt="" />					<h3 class="titulo-lista">Um dia em São Conrado</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/maresias-tubular-em-slow-motion-2023-10-26-28628.html" class="box-slider box-link" title="Maresias tubular em Slow Motion" target="_top">
+					<img src="231026030640000000.png" alt="" />					<h3 class="titulo-lista">Maresias tubular em Slow Motion</h3>
+				</a>
+			</li> 
+					</ul>
+
+		<div class="botoes-slider">
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=266889&amp;pid=0.html#" title="Próximo"><span id="prev-tv" class="btn-anterior">Próximo</span></a> 
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=266889&amp;pid=0.html#" title="Anterior"><span id="next-tv" class="btn-proximo">Anterior</span></a>
+		</div>
+
+		<div class="paginacao-slider">
+			<ul id="nav-slider-tv"></ul>		
+		</div>
+
+	</div><!-- FIM CHAMADA VIDEOS -->
+
+
+
+	<!-- /banner PRO -->
+	<div class="anuncio-lateral banner300px" id="banner-pro">
+		<a href="https://surfguru.com.br/assine" title="Assine o Surfguru PRO" target="_top"><img src="banner_fixo_-_lateral.gif" /></a>
+	</div>
+
+
+	
+	<ul class="barra-noticias width300px">
+
+		<h2 class="titulo"><span class="texto">Matérias</span></h2>	
+
+				
+				<li><a href="https://surfguru.com.br/conteudo/surf-delas-itacare-bahia-2024-03-20-28885.html" target="_top">Surf Delas Itacaré Bahia</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/taca-brasil-segundo-dia-2024-03-20-28884.html" target="_top">TAÇA BRASIL SEGUNDO DIA</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/pesca-mergulho-e-surfe-panama-oferece-aventuras-aquaticas-para-quem-gosta-2024-03-19-28883.html" target="_top">Pesca, mergulho e surfe: Panamá oferece aventuras aquáticas para quem gosta </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/tem-inicio-o-circuito-taca-brasil-de-surf-profissional-em-paracuru-ce-2024-03-19-28882.html" target="_top">TEM INÍCIO O CIRCUITO TAÇA BRASIL DE SURF PROFISSIONAL EM PARACURU-CE</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/aspi-gran-master-tour-itajai-brilha-no-circuito-catarinense-gran-master-2024-03-18-28881.html" target="_top">ASPI Gran-Master Tour: Itajaí brilha no circuito Catarinense Gran Master</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/laura-raupp-e-matheus-navarro-vencem-o-circuito-banco-do-brasil-em-torres-2024-03-18-28880.html" target="_top">Laura Raupp e Matheus Navarro vencem o Circuito Banco do Brasil em Torres</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/altas-ondas-show-de-surf-e-recorde-de-notas-cbsurf-longboard-e-cbsurf-sup-surf-2024-03-18-28879.html" target="_top">Altas ondas, show de surf e recorde de notas CBSurf Longboard e CBSurf SUP Surf</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/johanne-defay-e-griffin-colapinto-vencem-o-meo-rip-curl-pro-portugal-2024-03-18-28878.html" target="_top"> Johanne Defay e Griffin Colapinto vencem o MEO Rip Curl Pro Portugal</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/os-titulos-do-circuito-banco-do-brasil-de-surfe-serao-decididos-no-domingo-2024-03-18-28877.html" target="_top">Os títulos do Circuito Banco do Brasil de Surfe serão decididos no domingo </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/cbsurf-longboard-e-sup-surf-profissional-define-seus-lideres-2024-03-18-28876.html" target="_top">CBSurf Longboard e SUP SURF Profissional define seus líderes</a></li>
+				
+		
+	</ul>
+
+	<div class="linha clearfix linha-frame-lateral"></div>
+
+
+		
+
+
+
+	<!-- /12755878/quadradao base  -->
+	<div class="anuncio-lateral banner300px" id='quadradao_previsao'>
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('quadradao_previsao'); 
+				});
+		</script>
+	</div>
+
+
+	<div class="linha clearfix linha-frame-lateral"></div>
+
+
+	
+	<div class="sessao sessao-slider linha clearfix"><!-- INICIO CHAMADA GALERIA -->
+		<h2 class="titulo azul2"><span class="texto">Galerias</span>  <span class="ver-mais">|
+			<a href="https://surfguru.com.br/galerias/" target="_top">Mais Galerias</a>		</span></h2>
+		<ul id="slide-galerias" class="lista-slider">
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surf-delas-itacare-bahia-2024-03-20-28885.html" class="box-slider" title="Surf Delas Itacaré Bahia" target="_top">
+							<img src="https://surfguru.space/2024/03/240320115119000000.jpg" alt="divulgação (21)" />					<h3 class="titulo-lista">Surf Delas Itacaré Bahia</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/taca-brasil-segundo-dia-2024-03-20-28884.html" class="box-slider" title="TAÇA BRASIL SEGUNDO DIA" target="_top">
+							<img src="https://surfguru.space/2024/03/240320111413000000.jpg" alt="Junior Rocha PENA PARACURU " />					<h3 class="titulo-lista">TAÇA BRASIL SEGUNDO DIA</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/pesca-mergulho-e-surfe-panama-oferece-aventuras-aquaticas-para-quem-gosta-2024-03-19-28883.html" class="box-slider" title="Pesca, mergulho e surfe: Panamá oferece aventuras aquáticas para quem gosta " target="_top">
+							<img src="https://surfguru.space/2024/03/240319033738000000.jpg" alt="divulgação (19)" />					<h3 class="titulo-lista">Pesca, mergulho e surfe: Panamá oferece aventuras aquáticas para quem gosta </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/tem-inicio-o-circuito-taca-brasil-de-surf-profissional-em-paracuru-ce-2024-03-19-28882.html" class="box-slider" title="TEM INÍCIO O CIRCUITO TAÇA BRASIL DE SURF PROFISSIONAL EM PARACURU-CE" target="_top">
+							<img src="https://surfguru.space/2024/03/240319035229000000.jpg" alt="PENA PARACURU SURF FESTIVAL 2024" />					<h3 class="titulo-lista">TEM INÍCIO O CIRCUITO TAÇA BRASIL DE SURF PROFISSIONAL EM PARACURU-CE</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/aspi-gran-master-tour-itajai-brilha-no-circuito-catarinense-gran-master-2024-03-18-28881.html" class="box-slider" title="ASPI Gran-Master Tour: Itajaí brilha no circuito Catarinense Gran Master" target="_top">
+							<img src="https://surfguru.space/2024/03/240318044451000000.jpg" alt="Local Gran Master Ricardo Tavares, Alexandre Augusto, Leandro Moreira e Fabio Gaeka. " />					<h3 class="titulo-lista">ASPI Gran-Master Tour: Itajaí brilha no circuito Catarinense Gran Master</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/laura-raupp-e-matheus-navarro-vencem-o-circuito-banco-do-brasil-em-torres-2024-03-18-28880.html" class="box-slider" title="Laura Raupp e Matheus Navarro vencem o Circuito Banco do Brasil em Torres" target="_top">
+							<img src="https://surfguru.space/2024/03/240318040744000000.jpg" alt="Campeoes _CircuitoBB" />					<h3 class="titulo-lista">Laura Raupp e Matheus Navarro vencem o Circuito Banco do Brasil em Torres</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/altas-ondas-show-de-surf-e-recorde-de-notas-cbsurf-longboard-e-cbsurf-sup-surf-2024-03-18-28879.html" class="box-slider" title="Altas ondas, show de surf e recorde de notas CBSurf Longboard e CBSurf SUP Surf" target="_top">
+							<img src="https://surfguru.space/2024/03/240318045133000000.jpg" alt="SUP MASCULINO PRO" />					<h3 class="titulo-lista">Altas ondas, show de surf e recorde de notas CBSurf Longboard e CBSurf SUP Surf</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/johanne-defay-e-griffin-colapinto-vencem-o-meo-rip-curl-pro-portugal-2024-03-18-28878.html" class="box-slider" title=" Johanne Defay e Griffin Colapinto vencem o MEO Rip Curl Pro Portugal" target="_top">
+							<img src="https://surfguru.space/2024/03/240318043415000000.jpg" alt="Winners_24Portugal" />					<h3 class="titulo-lista"> Johanne Defay e Griffin Colapinto vencem o MEO Rip Curl Pro Portugal</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/os-titulos-do-circuito-banco-do-brasil-de-surfe-serao-decididos-no-domingo-2024-03-18-28877.html" class="box-slider" title="Os títulos do Circuito Banco do Brasil de Surfe serão decididos no domingo " target="_top">
+							<img src="https://surfguru.space/2024/03/240318034423000000.jpg" alt="Taina Hinckel _CircuitoBB" />					<h3 class="titulo-lista">Os títulos do Circuito Banco do Brasil de Surfe serão decididos no domingo </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/cbsurf-longboard-e-sup-surf-profissional-define-seus-lideres-2024-03-18-28876.html" class="box-slider" title="CBSurf Longboard e SUP SURF Profissional define seus líderes" target="_top">
+							<img src="https://surfguru.space/2024/03/240318021032000000.jpg" alt="PENA PARACURU SURF FESTIVAL 2024 " />					<h3 class="titulo-lista">CBSurf Longboard e SUP SURF Profissional define seus líderes</h3>
+				</a>
+			</li>
+					</ul>
+		<div class="botoes-slider">
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=266889&amp;pid=0.html#" title="Próximo"><span id="prev-galerias" class="btn-anterior">Próximo</span></a> 
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=266889&amp;pid=0.html#" title="Anterior"><span id="next-galerias" class="btn-proximo">Anterior</span></a>
+		</div>
+
+		<div class="paginacao-slider">
+			<ul id="nav-slider-galerias"></ul>		
+		</div>
+	</div><!-- FIM CHAMADA GALERIA -->
+
+
+
+	<!-- /12755878/retangular vertical -->
+	<div class="anuncio-lateral banner300px" id="vertical">
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('vertical'); 
+				});
+		</script>
+	</div>	
+
+
+</body>
