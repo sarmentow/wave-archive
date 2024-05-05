@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+	<link rel="stylesheet" type="text/css" href="main.1.11.css" />
+	<link rel="stylesheet" type="text/css" href="previsao.1.2.css" />
+	<link rel="stylesheet" type="text/css" href="frame-previsao.1.1.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Jockey+One" />
+
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="jquery.cycle.all.min.js"></script>
+	<script type="text/javascript" src="https://surfguru.com.br/js/Elements/aside.1.6.js"></script>
+
+<script type="text/javascript">
+
+
+$(function() {
+
+	var d = new Date();
+	$.getJSON('/usuarios/dados/' + parseInt(d.getTime()/1000) , function(data) {
+
+		if(data.dados.usuarioStatus==1){
+			googletag.pubads().setTargeting('pro', '1');
+			$('#clever_ad').remove();
+		}
+
+    	googletag.pubads().refresh();
+		
+	});
+
+});  
+
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'https:') + 
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+})();
+
+
+
+googletag.cmd.push(function() {
+	//topo - 1484156067747
+	googletag.defineSlot('/12755878/quadradao', [300, 250], 'quadradao').addService(googletag.pubads()).setTargeting("bannerID", "topoQuadradao");
+
+	//base - 1482266212257
+	googletag.defineSlot('/12755878/quadradao_previsao', [300, 250], 'quadradao_previsao').addService(googletag.pubads()).setTargeting("bannerID", "baseQuadradao");
+
+	//vertical - 1484097295056
+	googletag.defineSlot('/12755878/vertical', [300, 600], 'vertical').addService(googletag.pubads());
+
+	googletag.pubads().enableLazyLoad({
+		fetchMarginPercent: 25,
+		renderMarginPercent: 10,
+		mobileScaling: 2.0
+	});
+
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().collapseEmptyDivs();
+
+	//aguarda por um comando para carregar os anuncios
+	googletag.pubads().disableInitialLoad();
+
+	googletag.enableServices();
+
+});
+
+var localizacao = 'brasil/rio-grande-do-norte/natal';
+
+var modulo_surfmappers=false;
+var diaHoje = 5;
+var mesHoje = 5;
+var anoHoje = 2024;
+
+</script>
+
+
+</head>
+<body>
+
+	<!-- /12755878/quadradao do topo -->
+	<div class="anuncio-lateral banner300px" id='quadradao'>
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('quadradao'); 
+				});
+		</script>
+	</div>
+
+	
+	<div class="sessao sessao-slider linha clearfix"><!-- INICIO CHAMADA VIDEOS -->
+		<h2 class="titulo azul2"><span class="texto">Vídeos</span>  <span class="ver-mais">|
+			<a href="https://surfguru.com.br/categoria/comunidade/fotos-e-videos/" target="_top">Mais Vídeos</a>		</span></h2>
+		<ul id="slide-tv" class="lista-slider">
+						<li>
+				<a href="https://surfguru.com.br/conteudo/swell-na-laje-de-ipanema-2024-04-25-28980.html" class="box-slider box-link" title="SWELL NA LAJE DE IPANEMA" target="_top">
+					<img src="https://surfguru.space/2024/04/240425044305000000.jpg" alt="" />					<h3 class="titulo-lista">SWELL NA LAJE DE IPANEMA</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/10-anos-de-ecosurf-em-sc-encontro-mares-limpos-se-torna-marco-historico-em-sc-2024-04-22-28961.html" class="box-slider box-link" title="10 anos de Ecosurf em SC: Encontro Mares limpos se torna marco histórico em SC" target="_top">
+					<img src="https://surfguru.space/2024/04/240422013024000000.jpg" alt="" />					<h3 class="titulo-lista">10 anos de Ecosurf em SC: Encontro Mares limpos se torna marco histórico em SC</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/nicolas-oliveira-e-guilherme-goulart-sao-campeoes-antecipados-no-equador-2024-04-22-28956.html" class="box-slider box-link" title="Nicolas Oliveira e Guilherme Goulart são campeões antecipados no Equador" target="_top">
+					<img src="https://surfguru.space/2024/04/240422123746000000.jpg" alt="" />					<h3 class="titulo-lista">Nicolas Oliveira e Guilherme Goulart são campeões antecipados no Equador</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/matheus-jones-e-guilherme-goulart-vencem-a-quinta-etapa-do-semilleros-olas-pro-2024-04-10-28926.html" class="box-slider box-link" title="Matheus Jones e Guilherme Goulart vencem a quinta etapa do semilleros Olas Pro" target="_top">
+					<img src="https://surfguru.space/2024/04/240410050426000000.jpg" alt="" />					<h3 class="titulo-lista">Matheus Jones e Guilherme Goulart vencem a quinta etapa do semilleros Olas Pro</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/dunas-da-ribanceira-em-imbituba-sc-finalmente-protegidas-2024-04-02-28910.html" class="box-slider box-link" title="Dunas da Ribanceira, em Imbituba (SC), finalmente protegidas" target="_top">
+					<img src="240402061824000000.png" alt="" />					<h3 class="titulo-lista">Dunas da Ribanceira, em Imbituba (SC), finalmente protegidas</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/4ª-remada-volta-ilha-de-imbituba-acontece-em-marco-2024-02-29-28819.html" class="box-slider box-link" title="4ª Remada Volta Ilha de Imbituba acontece em março" target="_top">
+					<img src="https://surfguru.space/2024/02/240229035009000000.jpg" alt="" />					<h3 class="titulo-lista">4ª Remada Volta Ilha de Imbituba acontece em março</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/the-girls-surf-2024-02-02-28792.html" class="box-slider box-link" title="The Girls Surf" target="_top">
+					<img src="240202055212000000.png" alt="" />					<h3 class="titulo-lista">The Girls Surf</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/brasileiros-ocupam-posicoes-de-destaque-no-ranking-geral-do-semillero-olas-pro-tour-2024-2024-02-02-28791.html" class="box-slider box-link" title="Brasileiros ocupam posições de destaque no ranking geral do Semillero Olas Pro Tour 2024" target="_top">
+					<img src="https://surfguru.space/2024/02/240202051518000000.jpg" alt="" />					<h3 class="titulo-lista">Brasileiros ocupam posições de destaque no ranking geral do Semillero Olas Pro Tour 2024</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surfista-lanca-o-curta-metragem-“eu-e-ela”-2024-01-16-28764.html" class="box-slider box-link" title="Surfista lança o curta-metragem “Eu e Ela”" target="_top">
+					<img src="240116074409000000.png" alt="" />					<h3 class="titulo-lista">Surfista lança o curta-metragem “Eu e Ela”</h3>
+				</a>
+			</li> 
+						<li>
+				<a href="https://surfguru.com.br/conteudo/ondas-epicas-clima-frio-e-aventura-solitaria-2024-01-15-28760.html" class="box-slider box-link" title="Ondas  Épicas, Clima Frio e Aventura Solitária" target="_top">
+					<img src="https://surfguru.space/2024/01/240115075018000000.jpg" alt="" />					<h3 class="titulo-lista">Ondas  Épicas, Clima Frio e Aventura Solitária</h3>
+				</a>
+			</li> 
+					</ul>
+
+		<div class="botoes-slider">
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=255177&amp;pid=0.html#" title="Próximo"><span id="prev-tv" class="btn-anterior">Próximo</span></a> 
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=255177&amp;pid=0.html#" title="Anterior"><span id="next-tv" class="btn-proximo">Anterior</span></a>
+		</div>
+
+		<div class="paginacao-slider">
+			<ul id="nav-slider-tv"></ul>		
+		</div>
+
+	</div><!-- FIM CHAMADA VIDEOS -->
+
+
+
+	<!-- /banner PRO -->
+	<div class="anuncio-lateral banner300px" id="banner-pro">
+		<a href="https://surfguru.com.br/assine" title="Assine o Surfguru PRO" target="_top"><img src="banner_fixo_-_lateral.gif" /></a>
+	</div>
+
+
+	
+	<ul class="barra-noticias width300px">
+
+		<h2 class="titulo"><span class="texto">Matérias</span></h2>	
+
+				
+				<li><a href="https://surfguru.com.br/conteudo/show-de-gabriel-o-pensador-sera-atracao-do-aloha-spirit-festival-2024-05-03-29014.html" target="_top">Show de Gabriel O Pensador será atração do Aloha Spirit Festival </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/cinco-surfistas-do-brasil-estao-nas-quartas-de-final-do-bonsoy-gold-coast-pro-2024-05-03-29013.html" target="_top">Cinco surfistas do Brasil estão nas quartas de final do Bonsoy Gold Coast Pro </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/surfland-brasil-recebe-primeiro-campeonato-do-mundo-para-medicos-em-uma-piscina-2024-05-03-29012.html" target="_top">Surfland Brasil recebe primeiro campeonato do mundo para médicos em uma piscina</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/com-paleta-de-cores-do-brasil-wsl-divulga-poster-oficial-do-vivo-rio-pro-2024-2024-05-03-29011.html" target="_top"> Com paleta de cores do Brasil, WSL divulga pôster oficial do VIVO Rio Pro 2024 </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/evolucao-do-surfe-como-negocio-wsl-tera-espaco-em-plenaria-do-sports-summit-2024-05-02-29009.html" target="_top">Evolução do surfe como negócio: WSL terá espaço em plenária do Sports Summit</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/esta-aberta-a-janela-de-espera-do-primeiro-campeonato-de-surf-de-ondas-grandes-2024-05-02-29004.html" target="_top">ESTÁ ABERTA A JANELA DE ESPERA DO PRIMEIRO CAMPEONATO DE SURF DE ONDAS GRANDES </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/cadillac-amarelo-quando-a-parceria-e-perfeita-2024-05-02-29003.html" target="_top">CADILLAC AMARELO quando a parceria é perfeita</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/surfista-maeva-guastalla-trilha-jornada-no-circuito-profissional-2024-05-02-29002.html" target="_top">Surfista Maeva Guastalla trilha jornada no circuito profissional </a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/seis-brasileiros-passam-para-as-oitavas-de-final-do-challenger-series-na-australia-2024-05-02-29001.html" target="_top">Seis brasileiros passam para as oitavas de final do Challenger Series na Austrália</a></li>
+				
+				<li><a href="https://surfguru.com.br/conteudo/asj-da-a-largada-em-seu-circuito-local-2024-na-joaquina-2024-05-02-29000.html" target="_top">ASJ dá a largada em seu circuito local 2024 na Joaquina.</a></li>
+				
+		
+	</ul>
+
+	<div class="linha clearfix linha-frame-lateral"></div>
+
+
+		
+
+
+
+	<!-- /12755878/quadradao base  -->
+	<div class="anuncio-lateral banner300px" id='quadradao_previsao'>
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('quadradao_previsao'); 
+				});
+		</script>
+	</div>
+
+
+	<div class="linha clearfix linha-frame-lateral"></div>
+
+
+	
+	<div class="sessao sessao-slider linha clearfix"><!-- INICIO CHAMADA GALERIA -->
+		<h2 class="titulo azul2"><span class="texto">Galerias</span>  <span class="ver-mais">|
+			<a href="https://surfguru.com.br/galerias/" target="_top">Mais Galerias</a>		</span></h2>
+		<ul id="slide-galerias" class="lista-slider">
+						<li>
+				<a href="https://surfguru.com.br/conteudo/show-de-gabriel-o-pensador-sera-atracao-do-aloha-spirit-festival-2024-05-03-29014.html" class="box-slider" title="Show de Gabriel O Pensador será atração do Aloha Spirit Festival " target="_top">
+							<img src="https://surfguru.space/2024/05/240503045748000000.jpg" alt="Divulgação (51)" />					<h3 class="titulo-lista">Show de Gabriel O Pensador será atração do Aloha Spirit Festival </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/cinco-surfistas-do-brasil-estao-nas-quartas-de-final-do-bonsoy-gold-coast-pro-2024-05-03-29013.html" class="box-slider" title="Cinco surfistas do Brasil estão nas quartas de final do Bonsoy Gold Coast Pro " target="_top">
+							<img src="https://surfguru.space/2024/05/240503052106000000.jpg" alt="Macy Callaghan no tubo" />					<h3 class="titulo-lista">Cinco surfistas do Brasil estão nas quartas de final do Bonsoy Gold Coast Pro </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surfland-brasil-recebe-primeiro-campeonato-do-mundo-para-medicos-em-uma-piscina-2024-05-03-29012.html" class="box-slider" title="Surfland Brasil recebe primeiro campeonato do mundo para médicos em uma piscina" target="_top">
+							<img src="https://surfguru.space/2024/05/240503042212000000.jpg" alt=" Rafael Torman" />					<h3 class="titulo-lista">Surfland Brasil recebe primeiro campeonato do mundo para médicos em uma piscina</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/com-paleta-de-cores-do-brasil-wsl-divulga-poster-oficial-do-vivo-rio-pro-2024-2024-05-03-29011.html" class="box-slider" title=" Com paleta de cores do Brasil, WSL divulga pôster oficial do VIVO Rio Pro 2024 " target="_top">
+							<img src="https://surfguru.space/2024/05/240503021140000000.jpg" alt="Divulgação WSL" />					<h3 class="titulo-lista"> Com paleta de cores do Brasil, WSL divulga pôster oficial do VIVO Rio Pro 2024 </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/evolucao-do-surfe-como-negocio-wsl-tera-espaco-em-plenaria-do-sports-summit-2024-05-02-29009.html" class="box-slider" title="Evolução do surfe como negócio: WSL terá espaço em plenária do Sports Summit" target="_top">
+							<img src='dummy.gif' />					<h3 class="titulo-lista">Evolução do surfe como negócio: WSL terá espaço em plenária do Sports Summit</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/esta-aberta-a-janela-de-espera-do-primeiro-campeonato-de-surf-de-ondas-grandes-2024-05-02-29004.html" class="box-slider" title="ESTÁ ABERTA A JANELA DE ESPERA DO PRIMEIRO CAMPEONATO DE SURF DE ONDAS GRANDES " target="_top">
+							<img src="https://surfguru.space/2024/05/240502100747000000.jpg" alt="Lucas Chumbo" />					<h3 class="titulo-lista">ESTÁ ABERTA A JANELA DE ESPERA DO PRIMEIRO CAMPEONATO DE SURF DE ONDAS GRANDES </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/cadillac-amarelo-quando-a-parceria-e-perfeita-2024-05-02-29003.html" class="box-slider" title="CADILLAC AMARELO quando a parceria é perfeita" target="_top">
+							<img src="https://surfguru.space/2024/05/240502090351000000.jpg" alt="Marcos Monteiro" />					<h3 class="titulo-lista">CADILLAC AMARELO quando a parceria é perfeita</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surfista-maeva-guastalla-trilha-jornada-no-circuito-profissional-2024-05-02-29002.html" class="box-slider" title="Surfista Maeva Guastalla trilha jornada no circuito profissional " target="_top">
+							<img src="https://surfguru.space/2024/05/240502094239000000.jpg" alt="Maeva-durante-Taca-Brasil." />					<h3 class="titulo-lista">Surfista Maeva Guastalla trilha jornada no circuito profissional </h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/seis-brasileiros-passam-para-as-oitavas-de-final-do-challenger-series-na-australia-2024-05-02-29001.html" class="box-slider" title="Seis brasileiros passam para as oitavas de final do Challenger Series na Austrália" target="_top">
+							<img src="https://surfguru.space/2024/05/240502093532000000.jpg" alt="Samuel Pupo fez o maior somatório do dia na bateria brasileira da terça-feira " />					<h3 class="titulo-lista">Seis brasileiros passam para as oitavas de final do Challenger Series na Austrália</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/asj-da-a-largada-em-seu-circuito-local-2024-na-joaquina-2024-05-02-29000.html" class="box-slider" title="ASJ dá a largada em seu circuito local 2024 na Joaquina." target="_top">
+							<img src="https://surfguru.space/2024/05/240502095625000000.jpg" alt="Circuito ASJ é sinônimo de altas na Joaca." />					<h3 class="titulo-lista">ASJ dá a largada em seu circuito local 2024 na Joaquina.</h3>
+				</a>
+			</li>
+					</ul>
+		<div class="botoes-slider">
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=255177&amp;pid=0.html#" title="Próximo"><span id="prev-galerias" class="btn-anterior">Próximo</span></a> 
+		    <a href="banner_frame_6%3Ft=[45,269,5841]&amp;p=255177&amp;pid=0.html#" title="Anterior"><span id="next-galerias" class="btn-proximo">Anterior</span></a>
+		</div>
+
+		<div class="paginacao-slider">
+			<ul id="nav-slider-galerias"></ul>		
+		</div>
+	</div><!-- FIM CHAMADA GALERIA -->
+
+
+
+	<!-- /12755878/retangular vertical -->
+	<div class="anuncio-lateral banner300px" id="vertical">
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('vertical'); 
+				});
+		</script>
+	</div>	
+
+
+</body>
