@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+	<link rel="stylesheet" href="main.1.12.css"/>
+	<link rel="stylesheet" href="previsao.1.2.css"/>
+	<link rel="stylesheet" href="frame-previsao.1.1.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jockey+One"/>
+
+	<script src="jquery-1.9.1.min.js"></script>
+	<script src="jquery.cycle.all.min.js"></script>
+	<script src="aside.2.0.js"></script>
+
+<script type="text/javascript">
+
+var usuarioStatus = 0;
+
+var localizacao = 'brasil/rio-grande-do-norte/natal';
+var diaHoje = 11;
+var mesHoje = 6;
+var anoHoje = 2024;
+var modulo_surfmappers = false;
+
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'https:') + 
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+})();
+
+
+
+googletag.cmd.push(function() {
+	//topo - 1484156067747
+	googletag.defineSlot('/12755878/quadradao', [300, 250], 'quadradao').addService(googletag.pubads()).setTargeting("bannerID", "topoQuadradao");
+
+	//base - 1482266212257
+	googletag.defineSlot('/12755878/quadradao_previsao', [300, 250], 'quadradao_previsao').addService(googletag.pubads()).setTargeting("bannerID", "baseQuadradao");
+
+	//vertical - 1484097295056
+	googletag.defineSlot('/12755878/vertical', [300, 600], 'vertical').addService(googletag.pubads());
+
+	googletag.pubads().enableLazyLoad({
+		fetchMarginPercent: 25,
+		renderMarginPercent: 10,
+		mobileScaling: 2.0
+	});
+
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().collapseEmptyDivs();
+
+	//aguarda por um comando para carregar os anuncios
+	googletag.pubads().disableInitialLoad();
+
+	if(usuarioStatus==1){
+		googletag.pubads().setTargeting('pro', '1');
+		$('#clever_ad').remove();
+	}
+
+	googletag.enableServices();
+
+});
+
+
+</script>
+
+
+</head>
+<body>
+
+	<!-- /12755878/quadradao do topo -->
+	<div class="anuncio-lateral banner300px" id='quadradao'>
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('quadradao'); 
+				});
+		</script>
+	</div>
+
+	
+    <div class="sessao sessao-slider linha clearfix"><!-- INICIO CHAMADA VIDEOS -->
+        <h2 class="titulo azul2"><span class="texto">Galerias</span>  <span class="ver-mais">|
+            <a href="https://surfguru.com.br/categoria/comunidade/fotos-e-videos" target="_top">Mais Galerias</a>        </span></h2>
+        <ul id="slide-tv" class="lista-slider">
+
+						<li>
+				<a href="https://surfguru.com.br/conteudo/expedicao-snake-2023-08-21-28484.html" target="top" class="box-slider box-link" title="Expedição SNAKE">
+					<img src="https://surfguru.space/2023/08/230821025210000000.jpg" />
+					<h3 class="titulo-lista">Expedição SNAKE</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/porto-de-galinhas-quebrando-classico-nesse-inicio-de-temporada-2023-06-07-28341.html" target="top" class="box-slider box-link" title="Porto de Galinhas quebrando clássico nesse inicio de temporada">
+					<img src="https://surfguru.space/2023/06/230607102626000000.jpg" />
+					<h3 class="titulo-lista">Porto de Galinhas quebrando clássico nesse inicio de temporada</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/mikey-wright-amp-rolo-montes-time-2023-04-18-28241.html" target="top" class="box-slider box-link" title="Mikey Wright &amp;amp; Rolo Montes | TIME">
+					<img src="230418074607000000.png" />
+					<h3 class="titulo-lista">Mikey Wright &amp;amp; Rolo Montes | TIME</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/4%C2%AA-etapa-circuito-surf-talentos-oceano-2022-praia-do-matadeiro-2022-12-15-28084.html" target="top" class="box-slider box-link" title="4ª Etapa Circuito Surf Talentos Oceano 2022 - Praia do Matadeiro">
+					<img src="https://surfguru.space/2022/12/221215081327000000.jpg" />
+					<h3 class="titulo-lista">4ª Etapa Circuito Surf Talentos Oceano 2022 - Praia do Matadeiro</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/dia-classico-de-surf-em-porto-de-galinhas-pe-2022-09-02-27936.html" target="top" class="box-slider box-link" title="Dia clássico de Surf em Porto de Galinhas/ PE">
+					<img src="https://surfguru.space/2022/09/220902042314000000.jpg" />
+					<h3 class="titulo-lista">Dia clássico de Surf em Porto de Galinhas/ PE</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/%E2%80%9Conda-do-ano-51-ice%E2%80%9D-esta-de-volta-com-sua-segunda-temporada-no-canal-off-2022-05-25-27802.html" target="top" class="box-slider box-link" title="“Onda do Ano 51 Ice” está de volta com sua segunda temporada no Canal OFF">
+					<img src="https://surfguru.space/2022/05/220525110455000000.jpg" />
+					<h3 class="titulo-lista">“Onda do Ano 51 Ice” está de volta com sua segunda temporada no Canal OFF</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/enorme-swell-atinge-o-litoral-sul-catarinense-confira-as-fotos-2022-05-25-27803.html" target="top" class="box-slider box-link" title="Enorme swell atinge o litoral sul catarinense - Confira as fotos">
+					<img src="220525125421000000.png" />
+					<h3 class="titulo-lista">Enorme swell atinge o litoral sul catarinense - Confira as fotos</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surfistas-registram-ondas-ineditas-na-baia-de-vitoria-2022-05-16-27785.html" target="top" class="box-slider box-link" title="Surfistas registram ondas inéditas na Baía de Vitória">
+					<img src="https://surfguru.space/2022/05/220516064430000000.jpg" />
+					<h3 class="titulo-lista">Surfistas registram ondas inéditas na Baía de Vitória</h3>
+				</a>
+			</li>
+			
+        </ul>
+
+        <div class="botoes-slider">
+            <a href="framebanner%3Ft=[45,269,5841]&amp;p=260367&amp;pid=0.html#" title="Próximo"><span id="prev-tv" class="btn-anterior">Próximo</span></a> 
+            <a href="framebanner%3Ft=[45,269,5841]&amp;p=260367&amp;pid=0.html#" title="Anterior"><span id="next-tv" class="btn-proximo">Anterior</span></a>
+        </div>
+
+        <div class="paginacao-slider">
+            <ul id="nav-slider-tv"></ul>        
+        </div>
+
+    </div><!-- FIM CHAMADA VIDEOS -->
+
+
+
+	<!-- /banner PRO -->
+	<div class="anuncio-lateral banner300px" id="banner-pro">
+		<a href="https://surfguru.com.br/assine" title="Assine o Surfguru PRO" target="_top"><img src="banner_fixo_-_lateral.gif" /></a>
+	</div>
+
+
+	
+	<ul class="barra-noticias width300px">
+
+		<h2 class="titulo"><span class="texto">Matérias</span></h2>	
+
+				
+					<li><a href="https://surfguru.com.br/conteudo/praya-charters-e-a-mentawai-sem-segredos-2024-04-02-28909.html" target="_top">Praya Charters e a Mentawai Sem Segredos </a></li>
+						
+					<li><a href="https://surfguru.com.br/conteudo/pesca-mergulho-e-surfe-panama-oferece-aventuras-aquaticas-para-quem-gosta-2024-03-19-28883.html" target="_top">Pesca, mergulho e surfe: Panamá oferece aventuras aquáticas para quem gosta </a></li>
+						
+					<li><a href="https://surfguru.com.br/conteudo/sophia-medina-se-aventura-no-beach-park-2024-02-28-28817.html" target="_top"> Sophia Medina se aventura no Beach Park</a></li>
+						
+					<li><a href="https://surfguru.com.br/conteudo/fernando-de-noronha-tudo-o-que-voce-precisa-saber-antes-de-ir-2023-12-17-28730.html" target="_top">Fernando de Noronha: Tudo o que você precisa saber antes de ir</a></li>
+						
+					<li><a href="https://surfguru.com.br/conteudo/surfar-em-portugal-no-algarve-%E2%80%93-ja-pensou-quais-os-melhores-locais-2023-12-01-28740.html" target="_top">Surfar em Portugal no Algarve – Já pensou quais os melhores locais?</a></li>
+						
+					<li><a href="https://surfguru.com.br/conteudo/surfland-brasil-inaugura-oficialmente-piscina-de-ondas-2023-11-20-28670.html" target="_top">Surfland Brasil inaugura oficialmente piscina de ondas</a></li>
+						
+		
+	</ul>
+
+	<div class="linha clearfix linha-frame-lateral"></div>
+
+
+		
+
+
+
+	<!-- /12755878/quadradao base  -->
+	<div class="anuncio-lateral banner300px" id='quadradao_previsao'>
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('quadradao_previsao'); 
+				});
+		</script>
+	</div>
+
+
+	<div class="linha clearfix linha-frame-lateral"></div>
+
+
+
+	<div class="sessao sessao-slider linha clearfix"><!-- INICIO CHAMADA GALERIA -->
+		<h2 class="titulo azul2"><span class="texto">Vídeos</span>  <span class="ver-mais">|
+			            <a href="https://surfguru.com.br/categoria/comunidade/fotos-e-videos" target="_top">Mais Vídeos</a>		</span></h2>
+		<ul id="slide-galerias" class="lista-slider">
+						<li>
+				<a href="https://surfguru.com.br/conteudo/surf-em-matinhos-joao-lucas-bessy-2023-12-12-28718.html" class="box-slider" title="SURF EM MATINHOS - JOÃO LUCAS BESSY" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="https://surfguru.space/2023/12/231215080021000000.jpg" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">SURF EM MATINHOS - JOÃO LUCAS BESSY</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/um-dia-em-sao-conrado-2023-11-27-28685.html" class="box-slider" title="Um dia em São Conrado" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="https://surfguru.space/2023/11/231127011154000000.jpg" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">Um dia em São Conrado</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/maresias-tubular-em-slow-motion-2023-10-26-28628.html" class="box-slider" title="Maresias tubular em Slow Motion" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="231026030640000000.png" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">Maresias tubular em Slow Motion</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/slab-capixaba-de-gala-2023-10-04-28576.html" class="box-slider" title="SLAB CAPIXABA DE GALA" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="https://surfguru.space/2023/10/231004114700000000.jpg" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">SLAB CAPIXABA DE GALA</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/drink-a-beer-surf-a-wave-2023-09-26-28564.html" class="box-slider" title="Drink a Beer &amp; Surf a Wave" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="230926092349000000.png" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">Drink a Beer &amp; Surf a Wave</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/halley-batista-surfando-nos-alpes-suicos-2023-09-13-28533.html" class="box-slider" title="Halley Batista surfando nos Alpes Suiços" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="230913073026000000.png" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">Halley Batista surfando nos Alpes Suiços</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/barra-de-la-cruz-2023-09-11-28524.html" class="box-slider" title="Barra de La Cruz" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="230911015417000000.png" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">Barra de La Cruz</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/zicatela-underwater-2023-08-14-28476.html" class="box-slider" title="Zicatela Underwater" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="https://surfguru.space/2023/08/230814011349000000.jpg" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">Zicatela Underwater</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/zicatela-dreams-2023-07-03-28405.html" class="box-slider" title="Zicatela Dreams" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="https://surfguru.space/2023/07/230703064238000000.jpg" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">Zicatela Dreams</h3>
+				</a>
+			</li>
+						<li>
+				<a href="https://surfguru.com.br/conteudo/rio-step-off-no-rio-de-janeiro-2023-06-15-28356.html" class="box-slider" title="Rio Step off NO RIO DE JANEIRO" target="_top">
+					<figure class="imagem-destaque" style="margin: 0;">
+						<img src="230615062131000000.png" alt="" />
+					</figure>	
+					<h3 class="titulo-lista">Rio Step off NO RIO DE JANEIRO</h3>
+				</a>
+			</li>
+					</ul>
+		<div class="botoes-slider">
+		    <a href="framebanner%3Ft=[45,269,5841]&amp;p=260367&amp;pid=0.html#" title="Próximo"><span id="prev-galerias" class="btn-anterior">Próximo</span></a> 
+		    <a href="framebanner%3Ft=[45,269,5841]&amp;p=260367&amp;pid=0.html#" title="Anterior"><span id="next-galerias" class="btn-proximo">Anterior</span></a>
+		</div>
+
+		<div class="paginacao-slider">
+			<ul id="nav-slider-galerias"></ul>		
+		</div>
+	</div><!-- FIM CHAMADA GALERIA -->
+
+
+
+	<!-- /12755878/retangular vertical -->
+	<div class="anuncio-lateral banner300px" id="vertical">
+		<script type='text/javascript'>
+				googletag.cmd.push(function() { 
+					googletag.display('vertical'); 
+				});
+		</script>
+	</div>	
+
+
+</body>
